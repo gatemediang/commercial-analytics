@@ -1,4 +1,4 @@
-# Commercial Analytics & Financial Modelling Capstone (v2)
+# Commercial Analytics & Financial Modelling Project
 
 An Excel-first commercial analytics project built for a Data Analyst (Commercial) role in UK social care. It takes messy procurement, fleet, workforce, agency and finance extracts, cleans and reconciles them, and turns them into an interactive dashboard, a driver-based 2026 financial model and a savings tracker, with VBA to automate the monthly cycle. All data is synthetic.
 
@@ -19,7 +19,7 @@ The £5,662 gap between procurement spend and the finance ledger is one invoice 
 
 | Path | Contents |
 |---|---|
-| `Commercial_Analytics_Capstone_v2.xlsx` | The workbook (23 sheets, ~41,000 live formulas, 0 errors) |
+| `Commercial_Analytics_Dashboard.xlsx` | The workbook (23 sheets, ~41,000 live formulas, 0 errors) |
 | `Technical_Report.docx` / `.pdf` | 676-word technical report |
 | `Dataset/` | Seven source CSVs plus three split procurement files for the consolidation macro |
 | `VBA/` | Six `.bas` modules |
