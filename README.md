@@ -1,5 +1,7 @@
 # Commercial Analytics & Financial Modelling Project
 
+![Interactive Excel dashboard](images/dashboard.png)
+
 An Excel-first commercial analytics project built for a Data Analyst (Commercial) role in UK social care. It takes messy procurement, fleet, workforce, agency and finance extracts, cleans and reconciles them, and turns them into an interactive dashboard, a driver-based 2026 financial model and a savings tracker, with VBA to automate the monthly cycle. All data is synthetic.
 
 ## Headline results (2025 synthetic baseline)
