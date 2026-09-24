@@ -1,0 +1,601 @@
+InvoiceDate,SiteID,SiteName,Region,Supplier,Category,InvoiceID,Quantity,UnitCost,GrossSpend,PaymentTermsDays,SourceSystem,VAT,NetSpend,Contracted,DataQualityFlag
+2025-05-21,S006,Birmingham Care & Education Centre,Midlands,freshserve,Food & Catering,INV-2025-00001,32,85.42,2733.44,30,ERP,546.688,2733.44,Y,OK
+2025-10-07,S008,Leicester Care & Education Centre,Midlands,KitchenPro,Food & Catering,INV-2025-00002,12,60.24,722.88,60,Procurement Portal,144.576,722.88,N,OK
+2025-04-22,S009,Derby Care & Education Centre,Midlands,MediSure,Medical Supplies,INV-2025-00003,30,171.35,5140.56,60,Legacy Spend File,1028.112,5140.56,Y,OK
+2025-11-29,S006,Birmingham Care & Education Centre,Midlands,PowerDirect,Utilities,INV-2025-00004,70,577.74,40441.94,45,ERP,8088.388000000001,40441.94,N,OK
+2025-03-23,S016,Cardiff Care & Education Centre,Wales,CloudLink,IT & Telecoms,INV-2025-00005,55,193.42,10637.88,45,Procurement Portal,2127.576,10637.88,Y,OK
+2025-02-22,S013,Reading Care & Education Centre,South,WaterGrid,Utilities,INV-2025-00006,12,219.79,2637.51,45,ERP,527.5020000000001,2637.51,N,OK
+2025-05-16,S005,Sheffield Care & Education Centre,North,AutoCare,Vehicle & Fuel,INV-2025-00007,6,226.43,1358.59,60,Procurement Portal,271.718,1358.59,N,OK
+2025-02-10,S004,Newcastle Care & Education Centre,North,NourishCo,Food & Catering,INV-2025-00008,71,99.13,7038.54,45,Legacy Spend File,1407.708,7038.54,N,OK
+2025-04-09,S017,Swansea Care & Education Centre,Wales,AutoCare,Vehicle & Fuel,INV-2025-00009,9,73.38,660.43,30,Legacy Spend File,132.08599999999998,660.43,N,OK
+2025-04-30,S015,Brighton Care & Education Centre,South,CloudLink,IT & Telecoms,INV-2025-00010,13,296.5,3854.46,45,Procurement Portal,770.892,3854.46,Y,OK
+2025-07-09,S016,Cardiff Care & Education Centre,Wales,FleetFuel,Vehicle & Fuel,INV-2025-00011,46,73.63,3386.79,30,Legacy Spend File,677.3580000000001,3386.79,Y,OK
+2025-11-22,S019,Wrexham Care & Education Centre,Wales,KitchenPro,Food & Catering,INV-2025-00012,22,50.31,1106.86,60,Legacy Spend File,221.372,1106.86,N,OK
+2025-07-14,S009,Derby Care & Education Centre,Midlands,SafeGuard FM,Facilities,INV-2025-00013,35,205.62,7196.75,60,Legacy Spend File,1439.35,7196.75,N,OK
+2025-06-16,S014,Southampton Care & Education Centre,South,PowerDirect,Utilities,INV-2025-00014,8,87.28,698.26,30,ERP,139.65200000000002,698.26,N,OK
+2025-02-03,S007,Nottingham Care & Education Centre,Midlands,CareTemps,Agency Labour,INV-2025-00015,28,116.17,3252.83,60,Legacy Spend File,650.566,3252.83,N,OK
+2025-09-13,S017,Swansea Care & Education Centre,Wales,PowerDirect,Utilities,INV-2025-00016,51,183.5,9358.39,60,Procurement Portal,1871.678,9358.39,N,OK
+2025-05-07,S001,Preston Care & Education Centre,North,CloudLink,IT & Telecoms,INV-2025-00017,72,126.04,9074.62,60,Procurement Portal,1814.924,9074.62,Y,OK
+2025-07-24,S020,Bangor Care & Education Centre,Wales,NurseLink,Agency Labour,INV-2025-00018,47,356.6,16760.26,30,ERP,3352.052,16760.26,N,OK
+2025-01-25,S007,Nottingham Care & Education Centre,Midlands,OfficePlus,Office & Training,INV-2025-00019,15,45.52,682.75,30,Legacy Spend File,136.55,682.75,N,OK
+2025-02-02,S018,Newport Care & Education Centre,Wales,NurseLink,Agency Labour,INV-2025-00020,50,137.97,6898.36,45,Legacy Spend File,1379.672,6898.36,N,OK
+2025-01-06,S002,Manchester Care & Education Centre,North,NetServe,IT & Telecoms,INV-2025-00021,15,492.62,7389.27,60,Legacy Spend File,1477.8540000000005,7389.27,N,OK
+2025-06-24,S019,Wrexham Care & Education Centre,Wales,NetServe,IT & Telecoms,INV-2025-00022,15,194.31,2914.64,45,Procurement Portal,582.928,2914.64,N,OK
+2025-05-15,S012,Bristol Care & Education Centre,South,OfficePlus,Office & Training,INV-2025-00023,65,77.84,5059.46,30,Legacy Spend File,1011.892,5059.46,N,OK
+2025-09-17,S010,Coventry Care & Education Centre,Midlands,NetServe,IT & Telecoms,INV-2025-00024,78,100.49,7837.89,30,ERP,1567.5780000000002,7837.89,N,OK
+2025-09-29,S001,Preston Care & Education Centre,North,BuildCare,Facilities,INV-2025-00025,1,133.43,133.43,60,Procurement Portal,26.686000000000003,133.43,N,OK
+2025-07-05,S014,Southampton Care & Education Centre,South,MediSure,Medical Supplies,INV-2025-00026,40,127.55,5101.95,30,ERP,1020.39,5101.95,Y,OK
+2025-09-06,S006,Birmingham Care & Education Centre,Midlands,FreshServe,Food & Catering,INV-2025-00027,9,34.51,310.62,60,ERP,62.124,310.62,Y,OK
+2025-03-26,S012,Bristol Care & Education Centre,South,PrintCo,Office & Training,INV-2025-00028,34,92.21,3135.31,60,Legacy Spend File,627.062,3135.31,N,OK
+2025-12-20,S009,Derby Care & Education Centre,Midlands,PowerDirect,Utilities,INV-2025-00029,26,179.67,4671.36,60,Procurement Portal,934.272,4671.36,N,OK
+2025-09-22,S006,Birmingham Care & Education Centre,Midlands,RoadReady,Vehicle & Fuel,INV-2025-00030,58,80.92,4693.29,30,ERP,938.658,4693.29,N,OK
+2025-01-11,S010,Coventry Care & Education Centre,Midlands,NourishCo,Food & Catering,INV-2025-00031,76,46.69,3548.15,60,ERP,709.6300000000001,3548.15,N,OK
+2025-02-06,S010,Coventry Care & Education Centre,Midlands,UK Energy Partners,Utilities,INV-2025-00032,8,692.43,5539.48,30,ERP,1107.896,5539.48,N,OK
+2025-09-21,S007,Nottingham Care & Education Centre,Midlands,FleetFuel,Vehicle & Fuel,INV-2025-00033,31,94.3,2923.22,45,Legacy Spend File,584.644,2923.22,Y,OK
+2025-03-09,S018,Newport Care & Education Centre,Wales,PowerDirect,Utilities,INV-2025-00034,74,139.73,10340.1,60,Procurement Portal,2068.02,10340.1,N,OK
+2025-04-08,S015,Brighton Care & Education Centre,South,LearnWell,Office & Training,INV-2025-00035,13,117.91,1532.78,30,Legacy Spend File,306.556,1532.78,N,OK
+2025-07-30,S017,Swansea Care & Education Centre,Wales,RoadReady,Vehicle & Fuel,INV-2025-00036,60,48.54,2912.47,60,ERP,582.494,2912.47,N,OK
+2025-07-26,S013,Reading Care & Education Centre,South,FreshServe,Food & Catering,INV-2025-00037,44,72.91,3208.16,30,ERP,641.6320000000001,3208.16,Y,OK
+2025-08-18,S003,Leeds Care & Education Centre,North,PowerDirect,Utilities,INV-2025-00038,18,85.08,1531.52,45,ERP,306.30400000000003,1531.52,N,OK
+2025-02-08,S009,Derby Care & Education Centre,Midlands,OfficePlus,Office & Training,INV-2025-00039,57,36.13,2059.13,60,ERP,411.826,2059.13,N,OK
+2025-05-02,S012,Bristol Care & Education Centre,South,MediSure,Medical Supplies,INV-2025-00040,22,133.72,2941.89,45,Procurement Portal,588.378,2941.89,Y,OK
+2025-01-31,S019,Wrexham Care & Education Centre,Wales,WaterGrid,Utilities,INV-2025-00041,22,375.26,8255.71,45,ERP,1651.1419999999998,8255.71,N,OK
+2025-05-27,S002,Manchester Care & Education Centre,North,TeleCare IT,IT & Telecoms,INV-2025-00042,55,241.74,13295.93,60,Legacy Spend File,2659.186,13295.93,N,OK
+2025-04-08,S006,Birmingham Care & Education Centre,Midlands,OfficePlus,Office & Training,INV-2025-00043,38,70.38,2674.37,30,ERP,534.874,2674.37,N,OK
+2025-06-10,S002,Manchester Care & Education Centre,North,ClinEquip,Medical Supplies,INV-2025-00044,8,101.69,813.48,30,Legacy Spend File,162.69600000000003,813.48,N,OK
+2025-09-18,S001,Preston Care & Education Centre,North,CleanWorks,Facilities,INV-2025-00045,11,79.82,878.02,30,ERP,175.604,878.02,Y,OK
+2025-05-01,S018,Newport Care & Education Centre,Wales,KitchenPro,Food & Catering,INV-2025-00046,52,43.75,2274.96,30,Legacy Spend File,454.992,2274.96,N,OK
+2025-02-11,S005,Sheffield Care & Education Centre,North,ClinEquip,Medical Supplies,INV-2025-00047,54,93.14,5029.74,60,Legacy Spend File,1005.948,5029.74,N,OK
+2025-04-15,S010,Coventry Care & Education Centre,Midlands,RoadReady,Vehicle & Fuel,INV-2025-00048,41,169.91,6966.49,30,Procurement Portal,1393.298,6966.49,N,OK
+2025-11-27,S005,Sheffield Care & Education Centre,North,BuildCare,Facilities,INV-2025-00049,39,217.45,8480.36,45,Procurement Portal,1696.072,8480.36,N,OK
+2025-08-23,S009,Derby Care & Education Centre,Midlands,FreshServe,Food & Catering,INV-2025-00050,80,24.65,1971.88,60,ERP,394.376,1971.88,Y,OK
+2025-05-16,S003,Leeds Care & Education Centre,North,PowerDirect,Utilities,INV-2025-00051,17,298.78,5079.26,45,ERP,1015.852,5079.26,N,OK
+2025-03-22,S006,Birmingham Care & Education Centre,Midlands,RoadReady,Vehicle & Fuel,INV-2025-00052,57,76.87,4381.44,60,Legacy Spend File,876.288,4381.44,N,OK
+2025-10-11,S004,Newcastle Care & Education Centre,North,ClinEquip,Medical Supplies,INV-2025-00053,39,82.7,3225.19,60,ERP,645.038,3225.19,N,OK
+2025-02-24,S017,Swansea Care & Education Centre,Wales,CloudLink,IT & Telecoms,INV-2025-00054,71,307.98,21866.9,30,Procurement Portal,4373.38,21866.9,Y,OK
+2025-06-25,S013,Reading Care & Education Centre,South,PowerDirect,Utilities,INV-2025-00055,27,440.76,11900.64,60,Legacy Spend File,2380.128,11900.64,N,OK
+2025-01-27,S013,Reading Care & Education Centre,South,LearnWell,Office & Training,INV-2025-00056,12,125.17,1502.07,60,Procurement Portal,300.414,1502.07,N,OK
+2025-06-20,S020,Bangor Care & Education Centre,Wales,MediSure,Medical Supplies,INV-2025-00057,17,75.64,1285.8,60,Procurement Portal,257.16,1285.8,Y,OK
+2025-12-28,S006,Birmingham Care & Education Centre,Midlands,PrintCo,Office & Training,INV-2025-00058,55,63.27,3479.88,60,ERP,695.9760000000001,3479.88,N,OK
+2025-03-18,S005,Sheffield Care & Education Centre,North,KitchenPro,Food & Catering,INV-2025-00059,70,77.99,5459.31,30,Procurement Portal,1091.862,5459.31,N,OK
+2025-03-07,S004,Newcastle Care & Education Centre,North,SafeGuard FM,Facilities,INV-2025-00060,6,307.82,1846.9,45,Procurement Portal,369.38000000000005,1846.9,N,OK
+2025-12-16,S001,Preston Care & Education Centre,North,FleetFuel,Vehicle & Fuel,INV-2025-00061,32,72.99,2335.7,60,ERP,467.14,2335.7,Y,OK
+2025-03-21,S015,Brighton Care & Education Centre,South,NurseLink,Agency Labour,INV-2025-00062,31,270.88,8397.23,30,ERP,1679.446,8397.23,N,OK
+2025-06-20,S012,Bristol Care & Education Centre,South,MediSure,Medical Supplies,INV-2025-00063,53,65.3,3460.95,60,Legacy Spend File,692.19,3460.95,Y,OK
+2025-12-26,S014,Southampton Care & Education Centre,South,CloudLink,IT & Telecoms,INV-2025-00064,14,113.94,1595.23,45,ERP,319.04600000000005,1595.23,Y,OK
+2025-08-24,S003,Leeds Care & Education Centre,North,UK Energy Partners,Utilities,INV-2025-00065,45,390.86,17588.71,45,ERP,3517.742,17588.71,N,OK
+2025-04-09,S006,Birmingham Care & Education Centre,Midlands,ClinEquip,Medical Supplies,INV-2025-00066,52,253.01,13156.45,45,Procurement Portal,2631.2900000000004,13156.45,N,OK
+2025-11-25,S009,Derby Care & Education Centre,Midlands,TeleCare IT,IT & Telecoms,INV-2025-00067,66,211.46,13956.17,45,Legacy Spend File,2791.2340000000004,13956.17,N,OK
+2025-03-01,S006,Birmingham Care & Education Centre,Midlands,FleetFuel,Vehicle & Fuel,INV-2025-00068,34,164.98,5609.3,30,Legacy Spend File,1121.86,5609.3,Y,OK
+2025-11-02,S003,Leeds Care & Education Centre,North,MediSure,Medical Supplies,INV-2025-00069,56,146.41,8198.8,45,Legacy Spend File,1639.76,8198.8,Y,OK
+2025-09-19,S012,Bristol Care & Education Centre,South,NurseLink,Agency Labour,INV-2025-00070,15,210.39,3155.86,45,Legacy Spend File,631.172,3155.86,N,OK
+2025-12-29,S019,Wrexham Care & Education Centre,Wales,CloudLink,IT & Telecoms,INV-2025-00071,56,268.38,15029.15,30,Legacy Spend File,3005.83,15029.15,Y,OK
+2025-08-09,S013,Reading Care & Education Centre,South,WaterGrid,Utilities,INV-2025-00072,9,582.53,5242.77,60,Procurement Portal,1048.554,5242.77,N,OK
+2025-03-05,S018,Newport Care & Education Centre,Wales,AutoCare,Vehicle & Fuel,INV-2025-00073,39,93.15,3632.71,60,Procurement Portal,726.542,3632.71,N,OK
+2025-07-26,S019,Wrexham Care & Education Centre,Wales,CareTemps,Agency Labour,INV-2025-00074,38,709.34,26954.96,60,ERP,5390.992,26954.96,N,OK
+2025-07-14,S004,Newcastle Care & Education Centre,North,NurseLink,Agency Labour,INV-2025-00075,23,71.02,1633.4,60,Legacy Spend File,326.68000000000006,1633.4,N,OK
+2025-01-01,S008,Leicester Care & Education Centre,Midlands,NurseLink,Agency Labour,INV-2025-00076,39,471.46,18386.84,45,ERP,3677.368,18386.84,N,OK
+2025-08-15,S014,Southampton Care & Education Centre,South,RoadReady,Vehicle & Fuel,INV-2025-00077,57,99.66,5680.55,60,ERP,1136.11,5680.55,N,OK
+2025-03-28,S005,Sheffield Care & Education Centre,North,,Office & Training,INV-2025-00078,11,63.63,699.89,45,Legacy Spend File,139.978,699.89,N,Missing supplier
+2025-05-01,S020,Bangor Care & Education Centre,Wales,FleetFuel,Vehicle & Fuel,INV-2025-00079,40,99.92,3996.7,30,ERP,799.34,3996.7,Y,OK
+2025-05-06,S017,Swansea Care & Education Centre,Wales,MediSure,Medical Supplies,INV-2025-00080,61,40.22,2453.33,60,ERP,490.666,2453.33,Y,OK
+2025-10-22,S008,Leicester Care & Education Centre,Midlands,NurseLink,Agency Labour,INV-2025-00081,25,265.86,6646.45,60,Legacy Spend File,1329.29,6646.45,N,OK
+2025-05-05,S019,Wrexham Care & Education Centre,Wales,LearnWell,Office & Training,INV-2025-00082,19,91.28,1734.27,60,Legacy Spend File,346.85400000000004,1734.27,N,OK
+2025-04-23,S008,Leicester Care & Education Centre,Midlands,NourishCo,Food & Catering,INV-2025-00083,23,146.53,3370.19,60,Legacy Spend File,674.038,3370.19,N,OK
+2025-05-08,S014,Southampton Care & Education Centre,South,ClinEquip,Medical Supplies,INV-2025-00084,16,90.24,1443.8,45,ERP,288.76,1443.8,N,OK
+2025-11-10,S012,Bristol Care & Education Centre,South,RoadReady,Vehicle & Fuel,INV-2025-00085,65,60.9,3958.39,45,Legacy Spend File,791.678,3958.39,N,OK
+2025-09-01,S008,Leicester Care & Education Centre,Midlands,BuildCare,Facilities,INV-2025-00086,58,136.59,7922.27,45,ERP,1584.4540000000002,7922.27,N,OK
+2025-09-06,S007,Nottingham Care & Education Centre,Midlands,NetServe,IT & Telecoms,INV-2025-00087,31,363.98,11283.38,45,Procurement Portal,2256.676,11283.38,N,OK
+2025-05-20,S005,Sheffield Care & Education Centre,North,CloudLink,IT & Telecoms,INV-2025-00088,43,263.6,11334.89,45,Legacy Spend File,2266.978,11334.89,Y,OK
+2025-04-29,S007,Nottingham Care & Education Centre,Midlands,CleanWorks,Facilities,INV-2025-00089,50,134.5,6725.17,60,ERP,1345.034,6725.17,Y,OK
+2025-08-01,S011,London Care & Education Centre,South,UK Energy Partners,Utilities,INV-2025-00090,53,331.54,17571.79,45,Legacy Spend File,3514.358,17571.79,N,OK
+2025-04-16,S020,Bangor Care & Education Centre,Wales,HealthStaffing,Agency Labour,INV-2025-00091,54,316.45,17088.47,45,Legacy Spend File,3417.6940000000004,17088.47,N,OK
+2025-07-14,S004,Newcastle Care & Education Centre,North,ClinEquip,Medical Supplies,INV-2025-00092,62,204.43,12674.92,30,Procurement Portal,2534.9840000000004,12674.92,N,OK
+2025-10-03,S009,Derby Care & Education Centre,Midlands,CareTemps,Agency Labour,INV-2025-00093,70,203.9,14273.34,60,ERP,2854.668,14273.34,N,OK
+2025-08-12,S003,Leeds Care & Education Centre,North,WaterGrid,Utilities,INV-2025-00094,63,208.77,13152.69,30,Procurement Portal,2630.5380000000005,13152.69,N,OK
+2025-03-26,S012,Bristol Care & Education Centre,South,NurseLink,Agency Labour,INV-2025-00095,60,241.8,14508.17,30,Legacy Spend File,2901.634,14508.17,N,OK
+2025-10-31,S007,Nottingham Care & Education Centre,Midlands,CareMed,Medical Supplies,INV-2025-00096,73,53.65,3916.75,60,ERP,783.35,3916.75,N,OK
+2025-08-25,S019,Wrexham Care & Education Centre,Wales,HealthStaffing,Agency Labour,INV-2025-00097,24,353.06,8473.53,30,Procurement Portal,1694.706,8473.53,N,OK
+2025-08-21,S017,Swansea Care & Education Centre,Wales,FleetFuel,Vehicle & Fuel,INV-2025-00098,42,109.67,4606.05,45,Procurement Portal,921.21,4606.05,Y,OK
+2025-02-11,S007,Nottingham Care & Education Centre,Midlands,CareTemps,Agency Labour,INV-2025-00099,61,300.84,18351.54,30,Legacy Spend File,3670.308,18351.54,N,OK
+2025-04-25,S002,Manchester Care & Education Centre,North,CareMed,Medical Supplies,INV-2025-00100,9,105.47,949.27,60,ERP,189.854,949.27,N,OK
+2025-04-13,S005,Sheffield Care & Education Centre,North,MediSure,Medical Supplies,INV-2025-00101,3,55.09,165.28,60,ERP,33.056000000000004,165.28,Y,OK
+2025-12-09,S002,Manchester Care & Education Centre,North,SafeGuard FM,Facilities,INV-2025-00102,15,142.82,2142.34,60,ERP,428.4680000000001,2142.34,N,OK
+2025-03-27,S015,Brighton Care & Education Centre,South,TeleCare IT,IT & Telecoms,INV-2025-00103,78,182.21,14212.02,60,Legacy Spend File,2842.4040000000005,14212.02,N,OK
+2025-06-09,S017,Swansea Care & Education Centre,Wales,FreshServe,Food & Catering,INV-2025-00104,14,41.81,585.34,60,ERP,117.068,585.34,Y,OK
+2025-04-12,S005,Sheffield Care & Education Centre,North,CareTemps,Agency Labour,INV-2025-00105,10,274.53,2745.34,60,Legacy Spend File,549.0680000000001,2745.34,N,OK
+2025-12-23,S020,Bangor Care & Education Centre,Wales,UK Energy Partners,Utilities,INV-2025-00106,39,312.21,12176.35,60,Legacy Spend File,2435.27,12176.35,N,OK
+2025-09-30,S001,Preston Care & Education Centre,North,CareMed,Medical Supplies,INV-2025-00107,55,338.63,18624.39,60,Procurement Portal,3724.878,18624.39,N,OK
+2025-08-04,S009,Derby Care & Education Centre,Midlands,FleetFuel,Vehicle & Fuel,INV-2025-00108,63,104.57,6588.16,30,Procurement Portal,1317.632,6588.16,Y,OK
+2025-03-20,S011,London Care & Education Centre,South,PrintCo,Office & Training,INV-2025-00109,56,86.41,4839.14,30,Legacy Spend File,967.828,4839.14,N,OK
+2025-10-03,S019,Wrexham Care & Education Centre,Wales,NetServe,IT & Telecoms,INV-2025-00110,62,211.17,13092.79,45,Procurement Portal,2618.5580000000004,13092.79,N,OK
+2025-05-06,S006,Birmingham Care & Education Centre,Midlands,TeleCare IT,IT & Telecoms,INV-2025-00111,12,76.58,918.93,45,Procurement Portal,183.786,918.93,N,OK
+2025-11-09,S006,Birmingham Care & Education Centre,Midlands,PrintCo,Office & Training,INV-2025-00112,49,73.91,3621.8,45,ERP,724.3600000000001,3621.8,N,OK
+2025-09-07,S018,Newport Care & Education Centre,Wales,FleetFuel,Vehicle & Fuel,INV-2025-00113,28,98.2,2749.59,45,Procurement Portal,549.918,2749.59,Y,OK
+2025-12-26,S018,Newport Care & Education Centre,Wales,NetServe,IT & Telecoms,INV-2025-00114,36,852.7,30697.29,60,ERP,6139.4580000000005,30697.29,N,OK
+2025-05-04,S015,Brighton Care & Education Centre,South,UK Energy Partners,Utilities,INV-2025-00115,53,224.9,11919.78,45,Legacy Spend File,2383.956,11919.78,N,OK
+2025-09-01,S012,Bristol Care & Education Centre,South,PowerDirect,Utilities,INV-2025-00116,63,295.1,18591.26,45,ERP,3718.252,18591.26,N,OK
+2025-07-27,S020,Bangor Care & Education Centre,Wales,CloudLink,IT & Telecoms,INV-2025-00117,32,215.84,6906.87,45,Legacy Spend File,1381.374,6906.87,Y,OK
+2025-10-11,S015,Brighton Care & Education Centre,South,RoadReady,Vehicle & Fuel,INV-2025-00118,68,49.95,3396.88,45,Procurement Portal,679.3760000000001,3396.88,N,OK
+2025-12-26,S008,Leicester Care & Education Centre,Midlands,RoadReady,Vehicle & Fuel,INV-2025-00119,59,178.12,10508.79,45,Procurement Portal,2101.7580000000003,10508.79,N,OK
+2025-04-09,S008,Leicester Care & Education Centre,Midlands,UK Energy Partners,Utilities,INV-2025-00120,41,378.05,15500.01,30,Legacy Spend File,3100.0020000000004,15500.01,N,OK
+2025-04-21,S003,Leeds Care & Education Centre,North,CleanWorks,Facilities,INV-2025-00121,62,278.11,17242.95,45,Legacy Spend File,3448.59,17242.95,Y,OK
+2025-04-10,S001,Preston Care & Education Centre,North,CloudLink,IT & Telecoms,INV-2025-00122,38,133.41,5069.77,30,Procurement Portal,1013.9540000000002,5069.77,Y,OK
+2025-12-29,S013,Reading Care & Education Centre,South,CloudLink,IT & Telecoms,INV-2025-00123,69,475.88,32835.68,30,Procurement Portal,6567.136,32835.68,Y,OK
+2025-05-30,S006,Birmingham Care & Education Centre,Midlands,ClinEquip,Medical Supplies,INV-2025-00124,17,55.51,943.59,60,Procurement Portal,188.718,943.59,N,OK
+2025-05-26,S008,Leicester Care & Education Centre,Midlands,ClinEquip,Medical Supplies,INV-2025-00125,61,165.71,10108.55,45,Procurement Portal,2021.71,10108.55,N,OK
+2025-05-10,S003,Leeds Care & Education Centre,North,CleanWorks,Facilities,INV-2025-00126,62,600.47,37228.95,30,ERP,7445.79,37228.95,Y,OK
+2025-10-23,S010,Coventry Care & Education Centre,Midlands,OfficePlus,Office & Training,INV-2025-00127,7,43.5,304.48,30,ERP,60.89600000000001,304.48,N,OK
+2025-05-08,S011,London Care & Education Centre,South,CloudLink,IT & Telecoms,INV-2025-00128,16,161.12,2577.96,60,Procurement Portal,515.592,2577.96,Y,OK
+2025-07-14,S008,Leicester Care & Education Centre,Midlands,PowerDirect,Utilities,INV-2025-00129,58,264.08,15316.9,45,Procurement Portal,3063.38,15316.9,N,OK
+2025-10-19,S018,Newport Care & Education Centre,Wales,CareTemps,Agency Labour,INV-2025-00130,80,227.44,18194.92,30,Legacy Spend File,3638.984,18194.92,N,OK
+2025-11-17,S012,Bristol Care & Education Centre,South,FreshServe,Food & Catering,INV-2025-00131,28,27.7,775.67,45,Legacy Spend File,155.134,775.67,Y,OK
+2025-03-30,S002,Manchester Care & Education Centre,North,CleanWorks,Facilities,INV-2025-00132,71,186.92,13271.13,30,ERP,2654.226,13271.13,Y,OK
+2025-12-19,S010,Coventry Care & Education Centre,Midlands,CareTemps,Agency Labour,INV-2025-00133,77,167.25,12878.58,45,Procurement Portal,2575.7160000000003,12878.58,N,OK
+2025-12-28,S019,Wrexham Care & Education Centre,Wales,WaterGrid,Utilities,INV-2025-00134,37,324.39,12002.31,60,Procurement Portal,2400.462,12002.31,N,OK
+2025-11-17,S017,Swansea Care & Education Centre,Wales,WaterGrid,Utilities,INV-2025-00135,76,150.77,11458.77,60,ERP,2291.7540000000004,11458.77,N,OK
+2025-04-26,S012,Bristol Care & Education Centre,South,KitchenPro,Food & Catering,INV-2025-00136,20,152.45,3049.04,45,ERP,609.808,3049.04,N,OK
+2025-06-07,S017,Swansea Care & Education Centre,Wales,MediSure,Medical Supplies,INV-2025-00137,77,78.0,6005.96,60,Legacy Spend File,1201.192,6005.96,Y,OK
+2025-08-28,S008,Leicester Care & Education Centre,Midlands,officeplus,Office & Training,INV-2025-00138,39,62.83,2450.18,60,Procurement Portal,490.036,2450.18,N,OK
+2025-02-11,S003,Leeds Care & Education Centre,North,LearnWell,Office & Training,INV-2025-00139,77,117.32,9033.8,30,Procurement Portal,1806.76,9033.8,N,OK
+2025-05-09,S008,Leicester Care & Education Centre,Midlands,AutoCare,Vehicle & Fuel,INV-2025-00140,4,48.27,193.1,30,ERP,38.620000000000005,193.1,N,OK
+2025-05-18,S015,Brighton Care & Education Centre,South,ClinEquip,Medical Supplies,INV-2025-00141,74,135.99,10063.39,30,ERP,2012.678,10063.39,N,OK
+2025-04-03,S005,Sheffield Care & Education Centre,North,LearnWell,Office & Training,INV-2025-00142,75,153.92,11543.81,45,Legacy Spend File,2308.762,11543.81,N,OK
+2025-06-28,S016,Cardiff Care & Education Centre,Wales,NourishCo,Food & Catering,INV-2025-00143,53,26.85,1423.06,45,Procurement Portal,284.612,1423.06,N,OK
+2025-06-18,S015,Brighton Care & Education Centre,South,FreshServe,Food & Catering,INV-2025-00144,53,71.95,3813.21,60,Procurement Portal,762.642,3813.21,Y,OK
+2025-01-19,S012,Bristol Care & Education Centre,South,NurseLink,Agency Labour,INV-2025-00145,59,346.1,20419.7,30,Procurement Portal,4083.940000000001,20419.7,N,OK
+2025-07-26,S009,Derby Care & Education Centre,Midlands,FleetFuel,Vehicle & Fuel,INV-2025-00146,66,146.04,9638.63,30,Legacy Spend File,1927.726,9638.63,Y,OK
+2025-01-28,S018,Newport Care & Education Centre,Wales,LearnWell,Office & Training,INV-2025-00147,25,37.98,949.6,60,Procurement Portal,189.92,949.6,N,OK
+2025-08-15,S015,Brighton Care & Education Centre,South,PrintCo,Office & Training,INV-2025-00148,7,36.28,253.95,30,Procurement Portal,50.79,253.95,N,OK
+2025-08-13,S009,Derby Care & Education Centre,Midlands,SafeGuard FM,Facilities,INV-2025-00149,63,239.85,15110.72,30,ERP,3022.144,15110.72,N,OK
+2025-03-23,S005,Sheffield Care & Education Centre,North,PowerDirect,Utilities,INV-2025-00150,40,294.36,11774.39,60,ERP,2354.878,11774.39,N,OK
+2025-04-26,S005,Sheffield Care & Education Centre,North,HealthStaffing,Agency Labour,INV-2025-00151,15,344.31,5164.71,45,ERP,1032.942,5164.71,N,OK
+2025-05-30,S018,Newport Care & Education Centre,Wales,SafeGuard FM,Facilities,INV-2025-00152,66,217.78,14373.74,60,Procurement Portal,2874.748,14373.74,N,OK
+2025-05-05,S012,Bristol Care & Education Centre,South,LearnWell,Office & Training,INV-2025-00153,59,51.6,3044.26,60,ERP,608.8520000000001,3044.26,N,OK
+2025-09-18,S005,Sheffield Care & Education Centre,North,PowerDirect,Utilities,INV-2025-00154,18,284.06,5113.16,30,Procurement Portal,1022.632,5113.16,N,OK
+2025-05-17,S007,Nottingham Care & Education Centre,Midlands,AutoCare,Vehicle & Fuel,INV-2025-00155,1,111.62,111.62,45,Legacy Spend File,22.324,111.62,N,OK
+2025-08-17,S003,Leeds Care & Education Centre,North,OfficePlus,Office & Training,INV-2025-00156,69,50.63,3493.65,45,Procurement Portal,698.73,3493.65,N,OK
+2025-06-14,S006,Birmingham Care & Education Centre,Midlands,CareTemps,Agency Labour,INV-2025-00157,25,837.11,20927.81,60,ERP,4185.562000000001,20927.81,N,OK
+2025-07-30,S001,Preston Care & Education Centre,North,HealthStaffing,Agency Labour,INV-2025-00158,6,389.32,2335.89,45,Legacy Spend File,467.178,2335.89,N,OK
+2025-12-06,S017,Swansea Care & Education Centre,Wales,CareTemps,Agency Labour,INV-2025-00159,20,155.8,3115.98,45,ERP,623.196,3115.98,N,OK
+2025-08-14,S014,Southampton Care & Education Centre,South,FleetFuel,Vehicle & Fuel,INV-2025-00160,13,136.32,1772.12,60,Procurement Portal,354.424,1772.12,Y,OK
+2025-12-02,S012,Bristol Care & Education Centre,South,SafeGuard FM,Facilities,INV-2025-00161,20,105.31,2106.14,30,Procurement Portal,421.228,2106.14,N,OK
+2025-12-21,S013,Reading Care & Education Centre,South,AutoCare,Vehicle & Fuel,INV-2025-00162,51,146.46,7469.62,60,ERP,1493.924,7469.62,N,OK
+2025-11-17,S013,Reading Care & Education Centre,South,CareTemps,Agency Labour,INV-2025-00163,63,567.37,35744.25,60,ERP,7148.85,35744.25,N,OK
+2025-11-20,S005,Sheffield Care & Education Centre,North,FreshServe,Food & Catering,INV-2025-00164,37,41.39,1531.39,30,Legacy Spend File,306.278,1531.39,Y,OK
+2025-11-21,S007,Nottingham Care & Education Centre,Midlands,HealthStaffing,Agency Labour,INV-2025-00165,13,509.61,6624.89,45,ERP,1324.978,6624.89,N,OK
+2025-01-24,S011,London Care & Education Centre,South,CloudLink,IT & Telecoms,INV-2025-00166,42,276.07,11594.97,30,Procurement Portal,2318.994,11594.97,Y,OK
+2025-03-16,S009,Derby Care & Education Centre,Midlands,RoadReady,Vehicle & Fuel,INV-2025-00167,32,149.31,4777.85,60,Procurement Portal,955.5700000000002,4777.85,N,OK
+2025-03-31,S017,Swansea Care & Education Centre,Wales,CleanWorks,Facilities,INV-2025-00168,11,510.91,5620.01,60,Procurement Portal,1124.0020000000002,5620.01,Y,OK
+2025-10-26,S006,Birmingham Care & Education Centre,Midlands,WaterGrid,Utilities,INV-2025-00169,19,218.44,4150.3,30,Procurement Portal,830.0600000000001,4150.3,N,OK
+2025-05-11,S001,Preston Care & Education Centre,North,TeleCare IT,IT & Telecoms,INV-2025-00170,2,145.34,290.68,45,Procurement Portal,58.136,290.68,N,OK
+2025-08-15,S010,Coventry Care & Education Centre,Midlands,CleanWorks,Facilities,INV-2025-00171,45,110.36,4966.08,60,Procurement Portal,993.216,4966.08,Y,OK
+2025-05-09,S019,Wrexham Care & Education Centre,Wales,NurseLink,Agency Labour,INV-2025-00172,59,191.54,11300.75,45,ERP,2260.15,11300.75,N,OK
+2025-05-02,S020,Bangor Care & Education Centre,Wales,OfficePlus,Office & Training,INV-2025-00173,49,71.89,3522.42,60,Procurement Portal,704.484,3522.42,N,OK
+2025-06-01,S015,Brighton Care & Education Centre,South,NetServe,IT & Telecoms,INV-2025-00174,3,265.41,796.22,60,Procurement Portal,159.24400000000003,796.22,N,OK
+2025-12-18,S016,Cardiff Care & Education Centre,Wales,ClinEquip,Medical Supplies,INV-2025-00175,7,139.72,978.07,60,Legacy Spend File,195.61400000000003,978.07,N,OK
+2025-11-07,S006,Birmingham Care & Education Centre,Midlands,CloudLink,IT & Telecoms,INV-2025-00176,46,346.74,15950.09,30,Legacy Spend File,3190.018,15950.09,Y,OK
+2025-12-04,S002,Manchester Care & Education Centre,North,NetServe,IT & Telecoms,INV-2025-00177,18,221.58,3988.42,60,ERP,797.6840000000001,3988.42,N,OK
+2025-08-14,S012,Bristol Care & Education Centre,South,CareMed,Medical Supplies,INV-2025-00178,5,266.92,1334.58,60,Procurement Portal,266.916,1334.58,N,OK
+2025-06-01,S005,Sheffield Care & Education Centre,North,CleanWorks,Facilities,INV-2025-00179,42,155.62,6535.9,60,Procurement Portal,1307.18,6535.9,Y,OK
+2025-10-04,S018,Newport Care & Education Centre,Wales,UK Energy Partners,Utilities,INV-2025-00180,47,1116.05,52454.51,60,Legacy Spend File,10490.902000000002,52454.51,N,OK
+2025-09-04,S007,Nottingham Care & Education Centre,Midlands,SafeGuard FM,Facilities,INV-2025-00181,38,253.93,9649.49,60,Procurement Portal,1929.898,9649.49,N,OK
+2025-03-14,S018,Newport Care & Education Centre,Wales,OfficePlus,Office & Training,INV-2025-00182,29,46.81,1357.43,60,Legacy Spend File,271.48600000000005,1357.43,N,OK
+2025-07-07,S014,Southampton Care & Education Centre,South,NurseLink,Agency Labour,INV-2025-00183,12,166.47,1997.59,45,ERP,399.518,1997.59,N,OK
+2025-07-08,S019,Wrexham Care & Education Centre,Wales,NourishCo,Food & Catering,INV-2025-00184,34,84.75,2881.62,60,Procurement Portal,576.324,2881.62,N,OK
+2025-12-12,S018,Newport Care & Education Centre,Wales,FleetFuel,Vehicle & Fuel,INV-2025-00185,30,84.01,2520.39,45,ERP,504.078,2520.39,Y,OK
+2025-04-24,S018,Newport Care & Education Centre,Wales,AutoCare,Vehicle & Fuel,INV-2025-00186,9,140.69,1266.23,60,Procurement Portal,253.246,1266.23,N,OK
+2025-07-29,S015,Brighton Care & Education Centre,South,NetServe,IT & Telecoms,INV-2025-00187,15,285.4,4281.07,30,ERP,856.2139999999999,4281.07,N,OK
+2025-03-01,S014,Southampton Care & Education Centre,South,TeleCare IT,IT & Telecoms,INV-2025-00188,13,211.36,2747.7,30,Legacy Spend File,549.54,2747.7,N,OK
+2025-07-09,S003,Leeds Care & Education Centre,North,CareTemps,Agency Labour,INV-2025-00189,70,188.3,13181.13,45,Legacy Spend File,2636.226,13181.13,N,OK
+2025-12-02,S010,Coventry Care & Education Centre,Midlands,SafeGuard FM,Facilities,INV-2025-00190,13,78.24,1017.13,45,Legacy Spend File,203.426,1017.13,N,OK
+2025-12-20,S007,Nottingham Care & Education Centre,Midlands,CloudLink,IT & Telecoms,INV-2025-00191,48,172.09,8260.54,30,Procurement Portal,1652.1080000000002,8260.54,Y,OK
+2025-02-20,S011,London Care & Education Centre,South,WaterGrid,Utilities,INV-2025-00192,48,400.41,19219.51,60,Legacy Spend File,3843.902,19219.51,N,OK
+2025-05-22,S017,Swansea Care & Education Centre,Wales,CareMed,Medical Supplies,INV-2025-00193,25,135.0,3374.89,30,Procurement Portal,674.9780000000001,3374.89,N,OK
+2025-11-24,S017,Swansea Care & Education Centre,Wales,PowerDirect,Utilities,INV-2025-00194,77,126.0,9702.22,30,ERP,1940.444,9702.22,N,OK
+2025-10-17,S004,Newcastle Care & Education Centre,North,UK Energy Partners,Utilities,INV-2025-00195,27,274.98,7424.55,30,Legacy Spend File,1484.91,7424.55,N,OK
+2025-06-18,S016,Cardiff Care & Education Centre,Wales,UK Energy Partners,Utilities,INV-2025-00196,19,309.01,5871.26,60,ERP,1174.2520000000002,5871.26,N,OK
+2025-10-04,S004,Newcastle Care & Education Centre,North,CleanWorks,Facilities,INV-2025-00197,33,110.7,3653.14,30,ERP,730.628,3653.14,Y,OK
+2025-01-08,S001,Preston Care & Education Centre,North,MediSure,Medical Supplies,INV-2025-00198,46,130.59,6007.01,30,Legacy Spend File,1201.402,6007.01,Y,OK
+2025-05-16,S004,Newcastle Care & Education Centre,North,MediSure,Medical Supplies,INV-2025-00199,7,123.9,867.33,30,Legacy Spend File,173.466,867.33,Y,OK
+2025-02-02,S002,Manchester Care & Education Centre,North,KitchenPro,Food & Catering,INV-2025-00200,61,34.67,2114.61,45,Procurement Portal,422.922,2114.61,N,OK
+2025-09-15,S013,Reading Care & Education Centre,South,NourishCo,Food & Catering,INV-2025-00201,29,79.14,2294.95,60,ERP,458.99,2294.95,N,OK
+2025-11-26,S017,Swansea Care & Education Centre,Wales,TeleCare IT,IT & Telecoms,INV-2025-00202,4,299.48,1197.93,30,Procurement Portal,239.586,1197.93,N,OK
+2025-02-25,S012,Bristol Care & Education Centre,South,NurseLink,Agency Labour,INV-2025-00203,63,544.28,34289.53,60,Procurement Portal,6857.906,34289.53,N,OK
+2025-11-08,S016,Cardiff Care & Education Centre,Wales,NourishCo,Food & Catering,INV-2025-00204,19,116.05,2204.86,30,ERP,440.972,2204.86,N,OK
+2025-11-02,S006,Birmingham Care & Education Centre,Midlands,RoadReady,Vehicle & Fuel,INV-2025-00205,68,44.53,3028.03,45,Procurement Portal,605.6060000000001,3028.03,N,OK
+2025-12-26,S015,Brighton Care & Education Centre,South,HealthStaffing,Agency Labour,INV-2025-00206,15,179.11,2686.59,60,Legacy Spend File,537.3180000000001,2686.59,N,OK
+2025-08-20,S001,Preston Care & Education Centre,North,WaterGrid,Utilities,INV-2025-00207,30,331.87,9955.97,45,Procurement Portal,1991.194,9955.97,N,OK
+2025-02-18,S010,Coventry Care & Education Centre,Midlands,CareTemps,Agency Labour,INV-2025-00208,41,397.97,16316.58,45,Procurement Portal,3263.3160000000003,16316.58,N,OK
+2025-03-20,S020,Bangor Care & Education Centre,Wales,TeleCare IT,IT & Telecoms,INV-2025-00209,61,292.04,17814.67,30,ERP,3562.934,17814.67,N,OK
+2025-02-19,S009,Derby Care & Education Centre,Midlands,NourishCo,Food & Catering,INV-2025-00210,48,540.98,25967.23,30,Legacy Spend File,5193.446,25967.23,N,OK
+2025-03-04,S020,Bangor Care & Education Centre,Wales,AutoCare,Vehicle & Fuel,INV-2025-00211,53,130.04,6892.29,45,Legacy Spend File,1378.458,6892.29,N,OK
+2025-01-27,S009,Derby Care & Education Centre,Midlands,NurseLink,Agency Labour,INV-2025-00212,37,560.23,20728.43,60,Procurement Portal,4145.686000000001,20728.43,N,OK
+2025-09-17,S020,Bangor Care & Education Centre,Wales,KitchenPro,Food & Catering,INV-2025-00213,28,109.85,3075.72,30,Legacy Spend File,615.144,3075.72,N,OK
+2025-06-29,S002,Manchester Care & Education Centre,North,UK Energy Partners,Utilities,INV-2025-00214,72,357.71,25755.21,45,ERP,5151.042,25755.21,N,OK
+2025-04-26,S018,Newport Care & Education Centre,Wales,NetServe,IT & Telecoms,INV-2025-00215,55,184.98,10173.71,60,Legacy Spend File,2034.742,10173.71,N,OK
+2025-12-03,S019,Wrexham Care & Education Centre,Wales,ClinEquip,Medical Supplies,INV-2025-00216,35,182.17,6375.85,30,ERP,1275.17,6375.85,N,OK
+2025-06-29,S018,Newport Care & Education Centre,Wales,TeleCare IT,IT & Telecoms,INV-2025-00217,1,143.82,143.82,30,ERP,28.764,143.82,N,OK
+2025-03-14,S004,Newcastle Care & Education Centre,North,HealthStaffing,Agency Labour,INV-2025-00218,4,263.36,1053.45,30,Legacy Spend File,210.69000000000003,1053.45,N,OK
+2025-08-03,S002,Manchester Care & Education Centre,North,WaterGrid,Utilities,INV-2025-00219,59,191.43,11294.24,45,ERP,2258.848,11294.24,N,OK
+2025-06-16,S018,Newport Care & Education Centre,Wales,NetServe,IT & Telecoms,INV-2025-00220,73,230.13,16799.72,60,ERP,3359.9440000000004,16799.72,N,OK
+2025-11-13,S004,Newcastle Care & Education Centre,North,CleanWorks,Facilities,INV-2025-00221,7,642.92,4500.43,60,ERP,900.0860000000001,4500.43,Y,OK
+2025-08-06,S018,Newport Care & Education Centre,Wales,PrintCo,Office & Training,INV-2025-00222,63,26.86,1691.93,60,Procurement Portal,338.386,1691.93,N,OK
+2025-09-20,S011,London Care & Education Centre,South,CloudLink,IT & Telecoms,INV-2025-00223,15,320.88,4813.22,45,Procurement Portal,962.644,4813.22,Y,OK
+2025-12-14,S015,Brighton Care & Education Centre,South,NetServe,IT & Telecoms,INV-2025-00224,76,90.62,6886.84,45,Legacy Spend File,1377.3680000000002,6886.84,N,OK
+2025-04-23,S012,Bristol Care & Education Centre,South,CloudLink,IT & Telecoms,INV-2025-00225,51,169.71,8654.98,60,ERP,1730.996,8654.98,Y,OK
+2025-04-19,S003,Leeds Care & Education Centre,North,WaterGrid,Utilities,INV-2025-00226,18,455.04,8190.71,45,Procurement Portal,1638.142,8190.71,N,OK
+2025-09-12,S011,London Care & Education Centre,South,FreshServe,Food & Catering,INV-2025-00227,56,67.34,3770.99,30,ERP,754.198,3770.99,Y,OK
+2025-10-14,S008,Leicester Care & Education Centre,Midlands,PowerDirect,Utilities,INV-2025-00228,46,138.2,6357.2,30,Procurement Portal,1271.44,6357.2,N,OK
+2025-01-10,S007,Nottingham Care & Education Centre,Midlands,CareMed,Medical Supplies,INV-2025-00229,59,80.97,4777.21,30,Procurement Portal,955.442,4777.21,N,OK
+2025-07-27,S005,Sheffield Care & Education Centre,North,NurseLink,Agency Labour,INV-2025-00230,54,435.96,23542.09,45,ERP,4708.418000000001,23542.09,N,OK
+2025-03-29,S011,London Care & Education Centre,South,CareMed,Medical Supplies,INV-2025-00231,80,80.3,6424.13,45,Legacy Spend File,1284.826,6424.13,N,OK
+2025-02-24,S002,Manchester Care & Education Centre,North,NourishCo,Food & Catering,INV-2025-00232,32,73.22,2342.97,45,Legacy Spend File,468.594,2342.97,N,OK
+2025-06-08,S016,Cardiff Care & Education Centre,Wales,NourishCo,Food & Catering,INV-2025-00233,44,66.65,2932.59,30,Procurement Portal,586.518,2932.59,N,OK
+2025-11-21,S011,London Care & Education Centre,South,KitchenPro,Food & Catering,INV-2025-00234,15,45.42,681.34,60,Legacy Spend File,136.268,681.34,N,OK
+2025-11-27,S017,Swansea Care & Education Centre,Wales,RoadReady,Vehicle & Fuel,INV-2025-00235,19,308.91,5869.27,30,ERP,1173.854,5869.27,N,OK
+2025-03-30,S007,Nottingham Care & Education Centre,Midlands,CloudLink,IT & Telecoms,INV-2025-00236,78,311.78,24318.48,30,Legacy Spend File,4863.696,24318.48,Y,OK
+2025-09-10,S016,Cardiff Care & Education Centre,Wales,BuildCare,Facilities,INV-2025-00237,60,59.09,3545.64,60,Legacy Spend File,709.128,3545.64,N,OK
+2025-06-11,S017,Swansea Care & Education Centre,Wales,AutoCare,Vehicle & Fuel,INV-2025-00238,20,105.26,2105.19,45,ERP,421.038,2105.19,N,OK
+2025-06-05,S002,Manchester Care & Education Centre,North,PrintCo,Office & Training,INV-2025-00239,36,52.12,1876.24,60,ERP,375.2480000000001,1876.24,N,OK
+2025-08-25,S003,Leeds Care & Education Centre,North,NourishCo,Food & Catering,INV-2025-00240,58,103.88,6024.98,30,ERP,1204.996,6024.98,N,OK
+2025-11-27,S016,Cardiff Care & Education Centre,Wales,CloudLink,IT & Telecoms,INV-2025-00241,12,142.27,1707.26,60,Legacy Spend File,341.452,1707.26,Y,OK
+2025-10-25,S006,Birmingham Care & Education Centre,Midlands,CareTemps,Agency Labour,INV-2025-00242,71,281.65,19997.4,60,ERP,3999.480000000001,19997.4,N,OK
+2025-11-06,S001,Preston Care & Education Centre,North,WaterGrid,Utilities,INV-2025-00243,61,330.04,20132.24,60,ERP,4026.448,20132.24,N,OK
+2025-06-25,S018,Newport Care & Education Centre,Wales,OfficePlus,Office & Training,INV-2025-00244,11,120.74,1328.16,60,Legacy Spend File,265.632,1328.16,N,OK
+2025-12-29,S018,Newport Care & Education Centre,Wales,MediSure,Medical Supplies,INV-2025-00245,57,62.01,3534.69,45,Legacy Spend File,706.9380000000001,3534.69,Y,OK
+2025-07-10,S020,Bangor Care & Education Centre,Wales,SafeGuard FM,Facilities,INV-2025-00246,37,149.75,5540.83,45,Procurement Portal,1108.166,5540.83,N,OK
+2025-11-28,S013,Reading Care & Education Centre,South,ClinEquip,Medical Supplies,INV-2025-00247,43,92.41,3973.78,30,Procurement Portal,794.7560000000001,3973.78,N,OK
+2025-05-10,S003,Leeds Care & Education Centre,North,CareTemps,Agency Labour,INV-2025-00248,78,209.44,16336.55,30,Procurement Portal,3267.31,16336.55,N,OK
+2025-06-08,S017,Swansea Care & Education Centre,Wales,SafeGuard FM,Facilities,INV-2025-00249,51,475.3,24240.55,30,Legacy Spend File,4848.11,24240.55,N,Duplicate invoice
+2025-10-14,S007,Nottingham Care & Education Centre,Midlands,NourishCo,Food & Catering,INV-2025-00250,49,81.22,3979.64,60,Procurement Portal,795.928,3979.64,N,OK
+2025-12-10,S020,Bangor Care & Education Centre,Wales,KitchenPro,Food & Catering,INV-2025-00249,55,32.49,1786.89,60,Procurement Portal,357.37800000000004,1786.89,N,Duplicate invoice
+2025-04-03,S007,Nottingham Care & Education Centre,Midlands,RoadReady,Vehicle & Fuel,INV-2025-00252,28,157.39,4406.81,45,Procurement Portal,881.3620000000001,4406.81,N,OK
+2025-03-21,S006,Birmingham Care & Education Centre,Midlands,UK Energy Partners,Utilities,INV-2025-00253,10,803.23,8032.35,45,ERP,1606.4700000000005,8032.35,N,OK
+2025-06-22,S020,Bangor Care & Education Centre,Wales,ClinEquip,Medical Supplies,INV-2025-00254,80,211.74,16939.01,30,Legacy Spend File,3387.802,16939.01,N,OK
+2025-04-03,S009,Derby Care & Education Centre,Midlands,CleanWorks,Facilities,INV-2025-00255,80,78.05,6243.71,30,Legacy Spend File,1248.7420000000002,6243.71,Y,OK
+2025-07-06,S011,London Care & Education Centre,South,CareMed,Medical Supplies,INV-2025-00256,31,91.94,2850.22,45,Legacy Spend File,570.044,2850.22,N,OK
+2025-10-01,S001,Preston Care & Education Centre,North,OfficePlus,Office & Training,INV-2025-00257,31,150.55,4667.02,45,Procurement Portal,933.404,4667.02,N,OK
+2025-10-20,S016,Cardiff Care & Education Centre,Wales,AutoCare,Vehicle & Fuel,INV-2025-00258,57,64.37,3669.13,45,Procurement Portal,733.826,3669.13,N,OK
+2025-04-13,S017,Swansea Care & Education Centre,Wales,HealthStaffing,Agency Labour,INV-2025-00259,78,382.94,29869.46,30,Procurement Portal,5973.892,29869.46,N,OK
+2025-10-11,S020,Bangor Care & Education Centre,Wales,LearnWell,Office & Training,INV-2025-00260,14,114.84,1607.76,60,Legacy Spend File,321.552,1607.76,N,OK
+2025-03-24,S020,Bangor Care & Education Centre,Wales,CloudLink,IT & Telecoms,INV-2025-00261,35,132.13,4624.69,45,Legacy Spend File,924.938,4624.69,Y,OK
+2025-04-24,S017,Swansea Care & Education Centre,Wales,HealthStaffing,Agency Labour,INV-2025-00262,58,290.34,16839.57,45,ERP,3367.914,16839.57,N,OK
+2025-09-15,S017,Swansea Care & Education Centre,Wales,CareMed,Medical Supplies,INV-2025-00263,48,20.18,968.74,30,Procurement Portal,193.748,968.74,N,OK
+2025-01-15,S016,Cardiff Care & Education Centre,Wales,FleetFuel,Vehicle & Fuel,INV-2025-00264,41,54.08,2217.28,30,Legacy Spend File,443.4560000000001,2217.28,Y,OK
+2025-03-12,S009,Derby Care & Education Centre,Midlands,FleetFuel,Vehicle & Fuel,INV-2025-00265,5,82.68,413.39,45,Procurement Portal,82.678,413.39,Y,OK
+2025-08-29,S001,Preston Care & Education Centre,North,BuildCare,Facilities,INV-2025-00266,58,90.62,5255.97,60,ERP,1051.1940000000002,5255.97,N,OK
+2025-04-21,S014,Southampton Care & Education Centre,South,CareMed,Medical Supplies,INV-2025-00267,20,294.51,5890.23,60,Legacy Spend File,1178.046,5890.23,N,OK
+2025-05-28,S010,Coventry Care & Education Centre,Midlands,HealthStaffing,Agency Labour,INV-2025-00268,31,136.62,4235.23,45,ERP,847.0459999999999,4235.23,N,OK
+2025-11-24,S008,Leicester Care & Education Centre,Midlands,WaterGrid,Utilities,INV-2025-00269,80,196.26,15700.74,45,ERP,3140.148,15700.74,N,OK
+2025-10-02,S007,Nottingham Care & Education Centre,Midlands,PrintCo,Office & Training,INV-2025-00270,3,80.59,241.78,60,Legacy Spend File,48.356,241.78,N,OK
+2025-03-15,S017,Swansea Care & Education Centre,Wales,PowerDirect,Utilities,INV-2025-00271,38,552.34,20988.87,45,ERP,4197.774,20988.87,N,OK
+2025-10-20,S011,London Care & Education Centre,South,FleetFuel,Vehicle & Fuel,INV-2025-00272,54,43.13,2328.87,30,Legacy Spend File,465.774,2328.87,Y,OK
+2025-07-04,S014,Southampton Care & Education Centre,South,KitchenPro,Food & Catering,INV-2025-00273,9,123.24,1109.15,60,Legacy Spend File,221.83000000000004,1109.15,N,OK
+2025-08-29,S006,Birmingham Care & Education Centre,Midlands,CareMed,Medical Supplies,INV-2025-00274,6,120.68,724.06,60,Procurement Portal,144.81199999999998,724.06,N,OK
+2025-01-09,S019,Wrexham Care & Education Centre,Wales,netserve,IT & Telecoms,INV-2025-00275,46,128.23,5898.42,30,Procurement Portal,1179.684,5898.42,N,OK
+2025-06-20,S016,Cardiff Care & Education Centre,Wales,KitchenPro,Food & Catering,INV-2025-00276,18,83.81,1508.57,30,Procurement Portal,301.714,1508.57,N,OK
+2025-03-31,S013,Reading Care & Education Centre,South,AutoCare,Vehicle & Fuel,INV-2025-00277,60,105.99,6359.5,60,Procurement Portal,1271.9,6359.5,N,OK
+2025-02-02,S007,Nottingham Care & Education Centre,Midlands,CleanWorks,Facilities,INV-2025-00278,59,129.39,7634.06,30,Procurement Portal,1526.812,7634.06,Y,OK
+2025-01-22,S014,Southampton Care & Education Centre,South,MediSure,Medical Supplies,INV-2025-00279,41,124.7,5112.56,45,Legacy Spend File,1022.5120000000002,5112.56,Y,OK
+2025-01-19,S017,Swansea Care & Education Centre,Wales,LearnWell,Office & Training,INV-2025-00280,25,60.68,1516.93,45,Procurement Portal,303.386,1516.93,N,OK
+2025-03-05,S007,Nottingham Care & Education Centre,Midlands,RoadReady,Vehicle & Fuel,INV-2025-00281,48,101.12,4853.78,45,Procurement Portal,970.756,4853.78,N,OK
+2025-06-23,S020,Bangor Care & Education Centre,Wales,LearnWell,Office & Training,INV-2025-00282,24,107.95,2590.78,45,Legacy Spend File,518.1560000000001,2590.78,N,OK
+2025-05-17,S019,Wrexham Care & Education Centre,Wales,AutoCare,Vehicle & Fuel,INV-2025-00283,11,227.28,2500.09,60,Procurement Portal,500.018,2500.09,N,OK
+2025-04-03,S012,Bristol Care & Education Centre,South,NurseLink,Agency Labour,INV-2025-00284,70,151.86,10630.46,45,Procurement Portal,2126.092,10630.46,N,OK
+2025-12-05,S001,Preston Care & Education Centre,North,NourishCo,Food & Catering,INV-2025-00285,38,210.09,7983.58,45,Procurement Portal,1596.716,7983.58,N,OK
+2025-12-20,S012,Bristol Care & Education Centre,South,HealthStaffing,Agency Labour,INV-2025-00286,57,102.53,5844.09,45,Procurement Portal,1168.818,5844.09,N,OK
+2025-08-11,S002,Manchester Care & Education Centre,North,AutoCare,Vehicle & Fuel,INV-2025-00287,36,87.39,3146.08,60,ERP,629.216,3146.08,N,OK
+2025-09-20,S020,Bangor Care & Education Centre,Wales,CareTemps,Agency Labour,INV-2025-00288,21,414.62,8706.97,30,ERP,1741.394,8706.97,N,OK
+2025-03-06,S013,Reading Care & Education Centre,South,OfficePlus,Office & Training,INV-2025-00289,9,87.53,787.81,30,Legacy Spend File,157.562,787.81,N,OK
+2025-10-18,S009,Derby Care & Education Centre,Midlands,RoadReady,Vehicle & Fuel,INV-2025-00290,5,67.45,337.25,60,ERP,67.45,337.25,N,OK
+2025-07-10,S017,Swansea Care & Education Centre,Wales,LearnWell,Office & Training,INV-2025-00291,57,66.89,3812.62,30,Legacy Spend File,762.524,3812.62,N,OK
+2025-06-10,S001,Preston Care & Education Centre,North,RoadReady,Vehicle & Fuel,INV-2025-00292,36,72.44,2607.76,30,ERP,521.552,2607.76,N,OK
+2025-09-23,S010,Coventry Care & Education Centre,Midlands,SafeGuard FM,Facilities,INV-2025-00293,50,130.17,6508.27,60,ERP,1301.6540000000002,6508.27,N,OK
+2025-08-17,S019,Wrexham Care & Education Centre,Wales,NetServe,IT & Telecoms,INV-2025-00294,28,351.04,9829.2,60,Procurement Portal,1965.84,9829.2,N,OK
+2025-03-04,S014,Southampton Care & Education Centre,South,OfficePlus,Office & Training,INV-2025-00295,18,91.27,1642.9,30,Procurement Portal,328.58000000000004,1642.9,N,OK
+2025-12-16,S009,Derby Care & Education Centre,Midlands,OfficePlus,Office & Training,INV-2025-00296,41,51.23,2100.56,60,Procurement Portal,420.112,2100.56,N,OK
+2025-10-05,S002,Manchester Care & Education Centre,North,KitchenPro,Food & Catering,INV-2025-00297,38,106.61,4051.14,45,ERP,810.2280000000001,4051.14,N,OK
+2025-09-18,S020,Bangor Care & Education Centre,Wales,SafeGuard FM,Facilities,INV-2025-00298,29,213.14,6181.2,30,ERP,1236.24,6181.2,N,OK
+2025-01-14,S013,Reading Care & Education Centre,South,WaterGrid,Utilities,INV-2025-00299,47,390.93,18373.83,60,Legacy Spend File,3674.766000000001,18373.83,N,OK
+2025-03-08,S013,Reading Care & Education Centre,South,PrintCo,Office & Training,INV-2025-00300,79,106.04,8376.89,30,ERP,1675.378,8376.89,N,OK
+2025-09-03,S015,Brighton Care & Education Centre,South,NurseLink,Agency Labour,INV-2025-00301,68,190.15,12930.48,45,Procurement Portal,2586.096,12930.48,N,OK
+2025-06-12,S019,Wrexham Care & Education Centre,Wales,FreshServe,Food & Catering,INV-2025-00302,10,47.76,477.65,45,Procurement Portal,95.53,477.65,Y,OK
+2025-10-10,S012,Bristol Care & Education Centre,South,FleetFuel,Vehicle & Fuel,INV-2025-00303,76,143.29,10890.23,30,ERP,2178.046,10890.23,Y,OK
+2025-09-23,S016,Cardiff Care & Education Centre,Wales,MediSure,Medical Supplies,INV-2025-00304,20,167.87,3357.42,45,ERP,671.484,3357.42,Y,OK
+2025-04-26,S010,Coventry Care & Education Centre,Midlands,AutoCare,Vehicle & Fuel,INV-2025-00305,45,93.91,4226.14,60,Procurement Portal,845.2280000000001,4226.14,N,OK
+2025-11-22,S010,Coventry Care & Education Centre,Midlands,CloudLink,IT & Telecoms,INV-2025-00306,71,234.66,16661.19,45,ERP,3332.238,16661.19,Y,OK
+2025-10-01,S016,Cardiff Care & Education Centre,Wales,NetServe,IT & Telecoms,INV-2025-00307,12,444.23,5330.76,60,Legacy Spend File,1066.152,5330.76,N,OK
+2025-12-04,S010,Coventry Care & Education Centre,Midlands,CleanWorks,Facilities,INV-2025-00308,80,130.01,10400.6,60,Legacy Spend File,2080.1200000000003,10400.6,Y,OK
+2025-02-11,S005,Sheffield Care & Education Centre,North,MediSure,Medical Supplies,INV-2025-00309,6,162.13,972.78,60,Legacy Spend File,194.556,972.78,Y,OK
+2025-08-02,S004,Newcastle Care & Education Centre,North,PowerDirect,Utilities,INV-2025-00310,80,223.69,17895.09,60,ERP,3579.018,17895.09,N,OK
+2025-06-04,S011,London Care & Education Centre,South,NetServe,IT & Telecoms,INV-2025-00311,62,195.18,12100.93,30,Legacy Spend File,2420.186,12100.93,N,OK
+2025-02-07,S006,Birmingham Care & Education Centre,Midlands,TeleCare IT,IT & Telecoms,INV-2025-00312,8,402.6,3220.84,30,Procurement Portal,644.1680000000001,3220.84,N,OK
+2025-04-15,S015,Brighton Care & Education Centre,South,LearnWell,Office & Training,INV-2025-00313,44,118.09,5196.06,60,ERP,1039.2120000000002,5196.06,N,OK
+2025-06-26,S004,Newcastle Care & Education Centre,North,AutoCare,Vehicle & Fuel,INV-2025-00314,52,148.61,7727.58,30,Procurement Portal,1545.516,7727.58,N,OK
+2025-05-04,S019,Wrexham Care & Education Centre,Wales,NourishCo,Food & Catering,INV-2025-00315,60,133.27,7996.39,30,Procurement Portal,1599.2780000000002,7996.39,N,OK
+2025-02-19,S004,Newcastle Care & Education Centre,North,UK Energy Partners,Utilities,INV-2025-00316,7,252.9,1770.33,45,Procurement Portal,354.06600000000003,1770.33,N,OK
+2025-03-23,S020,Bangor Care & Education Centre,Wales,HealthStaffing,Agency Labour,INV-2025-00317,42,436.53,18334.25,60,Legacy Spend File,3666.85,18334.25,N,OK
+2025-09-13,S015,Brighton Care & Education Centre,South,UK Energy Partners,Utilities,INV-2025-00318,66,210.78,13911.47,45,Procurement Portal,2782.294,13911.47,N,OK
+2025-02-16,S016,Cardiff Care & Education Centre,Wales,OfficePlus,Office & Training,INV-2025-00319,51,89.64,4571.54,60,Procurement Portal,914.308,4571.54,N,OK
+2025-06-30,S015,Brighton Care & Education Centre,South,PowerDirect,Utilities,INV-2025-00320,7,232.73,1629.12,30,Procurement Portal,325.824,1629.12,N,OK
+2025-10-02,S016,Cardiff Care & Education Centre,Wales,LearnWell,Office & Training,INV-2025-00321,2,79.11,158.22,30,Procurement Portal,31.644,158.22,N,OK
+2025-07-07,S002,Manchester Care & Education Centre,North,NetServe,IT & Telecoms,INV-2025-00322,52,305.2,15870.35,45,ERP,3174.07,15870.35,N,OK
+2025-10-15,S018,Newport Care & Education Centre,Wales,ClinEquip,Medical Supplies,INV-2025-00323,25,76.51,1912.84,45,Legacy Spend File,382.568,1912.84,N,OK
+2025-09-16,S019,Wrexham Care & Education Centre,Wales,NourishCo,Food & Catering,INV-2025-00324,58,205.45,11916.07,60,Procurement Portal,2383.214,11916.07,N,OK
+2025-02-19,S007,Nottingham Care & Education Centre,Midlands,FreshServe,Food & Catering,INV-2025-00325,51,37.38,1906.27,45,Procurement Portal,381.254,1906.27,Y,OK
+2025-04-12,S017,Swansea Care & Education Centre,Wales,FleetFuel,Vehicle & Fuel,INV-2025-00326,78,48.72,3800.1,60,Procurement Portal,760.02,3800.1,Y,OK
+2025-01-20,S004,Newcastle Care & Education Centre,North,MediSure,Medical Supplies,INV-2025-00327,18,226.89,4083.97,60,Procurement Portal,816.794,4083.97,Y,OK
+2025-11-07,S011,London Care & Education Centre,South,OfficePlus,Office & Training,INV-2025-00328,66,115.92,7650.74,30,Procurement Portal,1530.148,7650.74,N,OK
+2025-07-21,S002,Manchester Care & Education Centre,North,FleetFuel,Vehicle & Fuel,INV-2025-00329,79,133.91,10578.62,60,Procurement Portal,2115.724,10578.62,Y,OK
+2025-09-18,S014,Southampton Care & Education Centre,South,AutoCare,Vehicle & Fuel,INV-2025-00330,69,134.22,9261.06,45,Legacy Spend File,1852.212,9261.06,N,OK
+2025-01-09,S006,Birmingham Care & Education Centre,Midlands,TeleCare IT,IT & Telecoms,INV-2025-00331,48,218.52,10489.11,45,Legacy Spend File,2097.822,10489.11,N,OK
+2025-06-07,S010,Coventry Care & Education Centre,Midlands,NurseLink,Agency Labour,INV-2025-00332,4,183.15,732.59,60,Procurement Portal,146.518,732.59,N,OK
+2025-01-27,S019,Wrexham Care & Education Centre,Wales,PowerDirect,Utilities,INV-2025-00333,75,260.64,19548.26,45,ERP,3909.652,19548.26,N,OK
+2025-12-15,S010,Coventry Care & Education Centre,Midlands,HealthStaffing,Agency Labour,INV-2025-00334,32,206.72,6614.9,30,Legacy Spend File,1322.98,6614.9,N,OK
+2025-01-10,S002,Manchester Care & Education Centre,North,FreshServe,Food & Catering,INV-2025-00335,57,111.13,6334.43,45,Procurement Portal,1266.8860000000002,6334.43,Y,OK
+2025-04-15,S019,Wrexham Care & Education Centre,Wales,NurseLink,Agency Labour,INV-2025-00336,53,276.69,14664.62,60,Legacy Spend File,2932.9240000000004,14664.62,N,OK
+2025-03-12,S012,Bristol Care & Education Centre,South,ClinEquip,Medical Supplies,INV-2025-00337,67,76.21,5105.95,30,Legacy Spend File,1021.19,5105.95,N,OK
+2025-07-12,S007,Nottingham Care & Education Centre,Midlands,PrintCo,Office & Training,INV-2025-00338,41,62.85,2576.79,30,Procurement Portal,515.3580000000001,2576.79,N,OK
+2025-07-01,S018,Newport Care & Education Centre,Wales,AutoCare,Vehicle & Fuel,INV-2025-00339,34,119.22,4053.56,60,Procurement Portal,810.712,4053.56,N,OK
+2025-10-13,S011,London Care & Education Centre,South,WaterGrid,Utilities,INV-2025-00340,39,183.35,7150.76,30,Procurement Portal,1430.152,7150.76,N,OK
+2025-12-27,S006,Birmingham Care & Education Centre,Midlands,PowerDirect,Utilities,INV-2025-00341,63,159.05,10020.36,45,Procurement Portal,2004.072,10020.36,N,OK
+2025-03-04,S004,Newcastle Care & Education Centre,North,TeleCare IT,IT & Telecoms,INV-2025-00342,74,251.55,18614.96,60,Legacy Spend File,3722.992,18614.96,N,OK
+2025-03-16,S014,Southampton Care & Education Centre,South,CareTemps,Agency Labour,INV-2025-00343,38,343.27,13044.22,30,Procurement Portal,2608.844,13044.22,N,OK
+2025-08-15,S011,London Care & Education Centre,South,NourishCo,Food & Catering,INV-2025-00344,33,49.18,1623.07,60,Procurement Portal,324.61400000000003,1623.07,N,OK
+2025-05-19,S017,Swansea Care & Education Centre,Wales,PowerDirect,Utilities,INV-2025-00345,72,192.94,13891.83,60,Procurement Portal,2778.366,13891.83,N,OK
+2025-10-28,S017,Swansea Care & Education Centre,Wales,KitchenPro,Food & Catering,INV-2025-00346,31,73.85,2289.3,30,ERP,457.86000000000007,2289.3,N,OK
+2025-04-30,S020,Bangor Care & Education Centre,Wales,PowerDirect,Utilities,INV-2025-00347,7,112.73,789.12,30,Procurement Portal,157.824,789.12,N,OK
+2025-12-15,S020,Bangor Care & Education Centre,Wales,OfficePlus,Office & Training,INV-2025-00348,18,34.58,622.51,30,Legacy Spend File,124.502,622.51,N,OK
+2025-09-01,S012,Bristol Care & Education Centre,South,NurseLink,Agency Labour,INV-2025-00349,62,202.07,12528.64,60,ERP,2505.728,12528.64,N,OK
+2025-05-27,S020,Bangor Care & Education Centre,Wales,TeleCare IT,IT & Telecoms,INV-2025-00350,8,195.63,1565.05,30,Legacy Spend File,313.01,1565.05,N,OK
+2025-01-20,S005,Sheffield Care & Education Centre,North,PowerDirect,Utilities,INV-2025-00351,23,296.62,6822.32,45,ERP,1364.464,6822.32,N,OK
+2025-04-06,S005,Sheffield Care & Education Centre,North,CareTemps,Agency Labour,INV-2025-00352,38,675.35,25663.23,30,ERP,5132.646000000001,25663.23,N,OK
+2025-05-26,S020,Bangor Care & Education Centre,Wales,NourishCo,Food & Catering,INV-2025-00353,59,104.18,6146.5,60,Legacy Spend File,1229.3000000000002,6146.5,N,OK
+2025-09-16,S005,Sheffield Care & Education Centre,North,OfficePlus,Office & Training,INV-2025-00354,60,68.68,4121.06,45,ERP,824.2120000000001,4121.06,N,OK
+2025-08-23,S005,Sheffield Care & Education Centre,North,FleetFuel,Vehicle & Fuel,INV-2025-00355,33,94.01,3102.38,60,ERP,620.4760000000001,3102.38,Y,OK
+2025-10-18,S004,Newcastle Care & Education Centre,North,RoadReady,Vehicle & Fuel,INV-2025-00356,25,54.73,1368.35,30,Legacy Spend File,273.67,1368.35,N,OK
+2025-09-21,S020,Bangor Care & Education Centre,Wales,CareTemps,Agency Labour,INV-2025-00357,42,296.96,12472.35,30,Procurement Portal,2494.4700000000003,12472.35,N,OK
+2025-03-13,S014,Southampton Care & Education Centre,South,FreshServe,Food & Catering,INV-2025-00358,62,55.46,3438.39,45,ERP,687.678,3438.39,Y,OK
+2025-05-01,S004,Newcastle Care & Education Centre,North,TeleCare IT,IT & Telecoms,INV-2025-00359,58,262.73,15238.28,45,Procurement Portal,3047.6560000000004,15238.28,N,OK
+2025-12-01,S002,Manchester Care & Education Centre,North,CareMed,Medical Supplies,INV-2025-00360,47,76.14,3578.37,60,ERP,715.674,3578.37,N,OK
+2025-06-07,S002,Manchester Care & Education Centre,North,NourishCo,Food & Catering,INV-2025-00361,21,86.49,1816.29,45,Legacy Spend File,363.258,1816.29,N,OK
+2025-03-02,S001,Preston Care & Education Centre,North,NetServe,IT & Telecoms,INV-2025-00362,38,511.14,19423.13,45,Legacy Spend File,3884.626,19423.13,N,OK
+2025-09-02,S012,Bristol Care & Education Centre,South,UK Energy Partners,Utilities,INV-2025-00363,20,235.48,4709.68,45,Legacy Spend File,941.936,4709.68,N,OK
+2025-12-26,S018,Newport Care & Education Centre,Wales,RoadReady,Vehicle & Fuel,INV-2025-00364,71,118.49,8412.7,45,Legacy Spend File,1682.5400000000002,8412.7,N,OK
+2025-12-15,S012,Bristol Care & Education Centre,South,UK Energy Partners,Utilities,INV-2025-00365,77,365.42,28137.14,30,Legacy Spend File,5627.428,28137.14,N,OK
+2025-10-16,S019,Wrexham Care & Education Centre,Wales,FleetFuel,Vehicle & Fuel,INV-2025-00366,15,76.19,1142.82,30,Legacy Spend File,228.564,1142.82,Y,OK
+2025-10-02,S019,Wrexham Care & Education Centre,Wales,PowerDirect,Utilities,INV-2025-00367,20,282.79,5655.84,30,Procurement Portal,1131.168,5655.84,N,OK
+2025-12-15,S020,Bangor Care & Education Centre,Wales,OfficePlus,Office & Training,INV-2025-00368,27,75.52,2039.07,60,Legacy Spend File,407.814,2039.07,N,OK
+2025-08-17,S009,Derby Care & Education Centre,Midlands,KitchenPro,Food & Catering,INV-2025-00369,8,68.59,548.7,45,ERP,109.74,548.7,N,OK
+2025-10-16,S019,Wrexham Care & Education Centre,Wales,CareTemps,Agency Labour,INV-2025-00370,8,196.1,1568.8,60,Procurement Portal,313.76,1568.8,N,OK
+2025-01-12,S019,Wrexham Care & Education Centre,Wales,NetServe,IT & Telecoms,INV-2025-00371,51,222.99,11372.28,45,ERP,2274.456,11372.28,N,OK
+2025-02-07,S019,Wrexham Care & Education Centre,Wales,PowerDirect,Utilities,INV-2025-00372,6,328.77,1972.62,45,Procurement Portal,394.524,1972.62,N,OK
+2025-01-31,S004,Newcastle Care & Education Centre,North,KitchenPro,Food & Catering,INV-2025-00373,9,144.39,1299.51,45,ERP,259.902,1299.51,N,OK
+2025-03-11,S010,Coventry Care & Education Centre,Midlands,HealthStaffing,Agency Labour,INV-2025-00374,54,508.46,27456.7,45,Procurement Portal,5491.34,27456.7,N,OK
+2025-02-11,S013,Reading Care & Education Centre,South,CareTemps,Agency Labour,INV-2025-00375,70,980.47,68632.95,30,Legacy Spend File,13726.59,68632.95,N,OK
+2025-10-03,S005,Sheffield Care & Education Centre,North,FreshServe,Food & Catering,INV-2025-00376,51,42.62,2173.67,60,ERP,434.734,2173.67,Y,OK
+2025-01-12,S013,Reading Care & Education Centre,South,UK Energy Partners,Utilities,INV-2025-00377,39,403.93,15753.2,45,Legacy Spend File,3150.6400000000003,15753.2,N,OK
+2025-07-14,S008,Leicester Care & Education Centre,Midlands,NurseLink,Agency Labour,INV-2025-00378,30,331.83,9954.88,30,Procurement Portal,1990.976,9954.88,N,OK
+2025-04-07,S008,Leicester Care & Education Centre,Midlands,SafeGuard FM,Facilities,INV-2025-00379,15,600.25,9003.77,30,Legacy Spend File,1800.754,9003.77,N,OK
+2025-04-16,S014,Southampton Care & Education Centre,South,MediSure,Medical Supplies,INV-2025-00380,9,76.93,692.39,30,Legacy Spend File,138.478,692.39,Y,OK
+2025-12-11,S001,Preston Care & Education Centre,North,PrintCo,Office & Training,INV-2025-00381,7,47.26,330.81,30,Legacy Spend File,66.162,330.81,N,OK
+2025-04-30,S006,Birmingham Care & Education Centre,Midlands,CareTemps,Agency Labour,INV-2025-00382,70,215.75,15102.44,30,ERP,3020.4880000000003,15102.44,N,OK
+2025-10-22,S005,Sheffield Care & Education Centre,North,CloudLink,IT & Telecoms,INV-2025-00383,41,68.41,2804.71,60,Legacy Spend File,560.942,2804.71,Y,OK
+2025-06-04,S018,Newport Care & Education Centre,Wales,FleetFuel,Vehicle & Fuel,INV-2025-00384,19,71.14,1351.74,60,Legacy Spend File,270.348,1351.74,Y,OK
+2025-05-21,S015,Brighton Care & Education Centre,South,CareTemps,Agency Labour,INV-2025-00385,8,197.6,1580.82,60,Legacy Spend File,316.164,1580.82,N,OK
+2025-12-14,S015,Brighton Care & Education Centre,South,BuildCare,Facilities,INV-2025-00386,55,195.52,10753.72,60,Procurement Portal,2150.744,10753.72,N,OK
+2025-12-10,S009,Derby Care & Education Centre,Midlands,AutoCare,Vehicle & Fuel,INV-2025-00387,49,114.65,5617.62,60,Procurement Portal,1123.524,5617.62,N,OK
+2025-03-18,S015,Brighton Care & Education Centre,South,CareTemps,Agency Labour,INV-2025-00388,39,841.91,32834.6,45,ERP,6566.92,32834.6,N,OK
+2025-04-26,S012,Bristol Care & Education Centre,South,OfficePlus,Office & Training,INV-2025-00389,39,126.5,4933.4,60,ERP,986.68,4933.4,N,OK
+2025-07-31,S002,Manchester Care & Education Centre,North,ClinEquip,Medical Supplies,INV-2025-00390,54,87.37,4718.18,60,Legacy Spend File,943.636,4718.18,N,OK
+2025-05-11,S004,Newcastle Care & Education Centre,North,HealthStaffing,Agency Labour,INV-2025-00391,27,183.03,4941.83,45,Legacy Spend File,988.366,4941.83,N,OK
+2025-02-17,S018,Newport Care & Education Centre,Wales,LearnWell,Office & Training,INV-2025-00392,69,98.3,6782.83,60,ERP,1356.566,6782.83,N,OK
+2025-12-11,S012,Bristol Care & Education Centre,South,TeleCare IT,IT & Telecoms,INV-2025-00393,78,106.43,8301.64,60,ERP,1660.328,8301.64,N,OK
+2025-12-10,S009,Derby Care & Education Centre,Midlands,PowerDirect,Utilities,INV-2025-00394,72,684.55,49287.68,30,Procurement Portal,9857.536,49287.68,N,OK
+2025-01-08,S014,Southampton Care & Education Centre,South,RoadReady,Vehicle & Fuel,INV-2025-00395,28,181.74,5088.68,30,Legacy Spend File,1017.736,5088.68,N,OK
+2025-12-23,S002,Manchester Care & Education Centre,North,OfficePlus,Office & Training,INV-2025-00396,78,57.94,4519.47,60,ERP,903.894,4519.47,N,OK
+2025-06-14,S002,Manchester Care & Education Centre,North,PowerDirect,Utilities,INV-2025-00397,37,97.44,3605.28,45,Procurement Portal,721.056,3605.28,N,OK
+2025-05-14,S006,Birmingham Care & Education Centre,Midlands,RoadReady,Vehicle & Fuel,INV-2025-00398,47,200.04,9401.78,60,Procurement Portal,1880.356,9401.78,N,OK
+2025-08-29,S012,Bristol Care & Education Centre,South,KitchenPro,Food & Catering,INV-2025-00399,41,61.03,2502.29,30,Procurement Portal,500.458,2502.29,N,OK
+2025-10-16,S009,Derby Care & Education Centre,Midlands,HealthStaffing,Agency Labour,INV-2025-00400,29,592.64,17186.46,60,ERP,3437.292,17186.46,N,OK
+2025-10-27,S007,Nottingham Care & Education Centre,Midlands,NetServe,IT & Telecoms,INV-2025-00401,75,91.53,6864.93,60,Procurement Portal,1372.986,6864.93,N,OK
+2025-06-18,S007,Nottingham Care & Education Centre,Midlands,CleanWorks,Facilities,INV-2025-00402,30,129.45,3883.52,45,Legacy Spend File,776.7040000000001,3883.52,Y,OK
+2025-12-02,S006,Birmingham Care & Education Centre,Midlands,PrintCo,Office & Training,INV-2025-00403,44,75.22,3309.53,45,Procurement Portal,661.9060000000001,3309.53,N,OK
+2025-03-28,S006,Birmingham Care & Education Centre,Midlands,LearnWell,Office & Training,INV-2025-00404,46,76.96,3540.31,30,ERP,708.062,3540.31,N,OK
+2025-10-05,S014,Southampton Care & Education Centre,South,OfficePlus,Office & Training,INV-2025-00405,8,58.55,468.43,60,ERP,93.686,468.43,N,OK
+2025-07-31,S016,Cardiff Care & Education Centre,Wales,MediSure,Medical Supplies,INV-2025-00406,18,169.03,3042.49,60,ERP,608.4979999999999,3042.49,Y,OK
+2025-04-22,S016,Cardiff Care & Education Centre,Wales,CleanWorks,Facilities,INV-2025-00407,65,100.06,6503.87,45,Procurement Portal,1300.774,6503.87,Y,OK
+2025-09-07,S016,Cardiff Care & Education Centre,Wales,PrintCo,Office & Training,INV-2025-00408,3,69.35,208.05,30,Legacy Spend File,41.61000000000001,208.05,N,OK
+2025-01-09,S011,London Care & Education Centre,South,HealthStaffing,Agency Labour,INV-2025-00409,68,320.52,21795.37,60,Procurement Portal,4359.074,21795.37,N,OK
+2025-09-15,S007,Nottingham Care & Education Centre,Midlands,CloudLink,IT & Telecoms,INV-2025-00410,56,291.95,16348.98,30,ERP,3269.7960000000003,16348.98,Y,OK
+2025-04-09,S010,Coventry Care & Education Centre,Midlands,CleanWorks,Facilities,INV-2025-00411,80,266.23,21298.07,60,Procurement Portal,4259.6140000000005,21298.07,Y,OK
+2025-02-10,S008,Leicester Care & Education Centre,Midlands,telecare it,IT & Telecoms,INV-2025-00412,48,118.52,5688.92,45,Procurement Portal,1137.784,5688.92,N,OK
+2025-04-26,S019,Wrexham Care & Education Centre,Wales,PowerDirect,Utilities,INV-2025-00413,39,107.52,4193.37,60,ERP,838.674,4193.37,N,OK
+2025-07-27,S012,Bristol Care & Education Centre,South,MediSure,Medical Supplies,INV-2025-00414,49,242.31,11873.14,45,Legacy Spend File,2374.628,11873.14,Y,OK
+2025-01-05,S018,Newport Care & Education Centre,Wales,ClinEquip,Medical Supplies,INV-2025-00415,22,144.06,3169.43,30,Procurement Portal,633.886,3169.43,N,OK
+2025-02-18,S009,Derby Care & Education Centre,Midlands,AutoCare,Vehicle & Fuel,INV-2025-00416,68,62.94,4280.04,30,ERP,856.008,4280.04,N,OK
+2025-01-24,S012,Bristol Care & Education Centre,South,LearnWell,Office & Training,INV-2025-00417,10,176.02,1760.24,60,Procurement Portal,352.048,1760.24,N,OK
+2025-06-11,S016,Cardiff Care & Education Centre,Wales,MediSure,Medical Supplies,INV-2025-00418,3,127.88,383.65,30,Legacy Spend File,76.73,383.65,Y,OK
+2025-06-03,S001,Preston Care & Education Centre,North,HealthStaffing,Agency Labour,INV-2025-00419,21,573.87,12051.19,60,ERP,2410.2380000000003,12051.19,N,OK
+2025-10-04,S007,Nottingham Care & Education Centre,Midlands,NurseLink,Agency Labour,INV-2025-00420,43,311.35,13388.05,45,Legacy Spend File,2677.61,13388.05,N,OK
+2025-06-27,S016,Cardiff Care & Education Centre,Wales,KitchenPro,Food & Catering,INV-2025-00421,7,201.91,1413.34,30,Procurement Portal,282.668,1413.34,N,OK
+2025-11-06,S009,Derby Care & Education Centre,Midlands,NourishCo,Food & Catering,INV-2025-00422,79,170.69,13484.18,60,Procurement Portal,2696.836,13484.18,N,OK
+2025-05-20,S017,Swansea Care & Education Centre,Wales,ClinEquip,Medical Supplies,INV-2025-00423,58,104.64,6069.34,45,ERP,1213.8680000000002,6069.34,N,OK
+2025-04-06,S008,Leicester Care & Education Centre,Midlands,CareTemps,Agency Labour,INV-2025-00424,75,511.91,38393.16,60,Procurement Portal,7678.632000000001,38393.16,N,OK
+2025-02-07,S009,Derby Care & Education Centre,Midlands,CloudLink,IT & Telecoms,INV-2025-00425,11,313.75,3451.21,45,ERP,690.2420000000001,3451.21,Y,OK
+2025-07-19,S017,Swansea Care & Education Centre,Wales,BuildCare,Facilities,INV-2025-00426,41,382.11,15666.44,45,ERP,3133.2880000000005,15666.44,N,OK
+2025-08-16,S017,Swansea Care & Education Centre,Wales,CareMed,Medical Supplies,INV-2025-00427,47,70.58,3317.38,45,ERP,663.4760000000001,3317.38,N,OK
+2025-08-09,S004,Newcastle Care & Education Centre,North,FreshServe,Food & Catering,INV-2025-00428,58,94.79,5498.1,60,Legacy Spend File,1099.62,5498.1,Y,OK
+2025-01-14,S015,Brighton Care & Education Centre,South,HealthStaffing,Agency Labour,INV-2025-00429,12,536.96,6443.47,45,Legacy Spend File,1288.6940000000002,6443.47,N,OK
+2025-01-07,S003,Leeds Care & Education Centre,North,RoadReady,Vehicle & Fuel,INV-2025-00430,38,36.11,1372.18,45,Procurement Portal,274.43600000000004,1372.18,N,OK
+2025-09-24,S016,Cardiff Care & Education Centre,Wales,PowerDirect,Utilities,INV-2025-00431,22,130.41,2868.98,60,Procurement Portal,573.796,2868.98,N,OK
+2025-06-04,S006,Birmingham Care & Education Centre,Midlands,SafeGuard FM,Facilities,INV-2025-00432,35,58.64,2052.32,45,ERP,410.46400000000006,2052.32,N,OK
+2025-05-22,S014,Southampton Care & Education Centre,South,SafeGuard FM,Facilities,INV-2025-00433,54,155.21,8381.37,45,Procurement Portal,1676.2740000000003,8381.37,N,OK
+2025-05-07,S009,Derby Care & Education Centre,Midlands,RoadReady,Vehicle & Fuel,INV-2025-00434,64,140.97,9021.88,60,Legacy Spend File,1804.376,9021.88,N,OK
+2025-03-11,S014,Southampton Care & Education Centre,South,OfficePlus,Office & Training,INV-2025-00435,39,171.36,6683.16,30,Procurement Portal,1336.632,6683.16,N,OK
+2025-08-14,S005,Sheffield Care & Education Centre,North,CareTemps,Agency Labour,INV-2025-00436,43,312.48,13436.56,45,Legacy Spend File,2687.312,13436.56,N,OK
+2025-06-14,S011,London Care & Education Centre,South,SafeGuard FM,Facilities,INV-2025-00437,78,440.85,34385.98,60,ERP,6877.196000000001,34385.98,N,OK
+2025-07-23,S008,Leicester Care & Education Centre,Midlands,FleetFuel,Vehicle & Fuel,INV-2025-00438,41,44.47,1823.28,45,Legacy Spend File,364.656,1823.28,Y,OK
+2025-05-05,S011,London Care & Education Centre,South,PrintCo,Office & Training,INV-2025-00439,42,29.39,1234.35,45,Procurement Portal,246.87,1234.35,N,OK
+2025-10-16,S017,Swansea Care & Education Centre,Wales,FleetFuel,Vehicle & Fuel,INV-2025-00440,26,92.14,2395.68,60,Legacy Spend File,479.136,2395.68,Y,OK
+2025-08-25,S009,Derby Care & Education Centre,Midlands,ClinEquip,Medical Supplies,INV-2025-00441,27,148.22,4002.06,45,Procurement Portal,800.412,4002.06,N,OK
+2025-12-11,S004,Newcastle Care & Education Centre,North,NourishCo,Food & Catering,INV-2025-00442,64,63.84,4085.86,30,Legacy Spend File,817.172,4085.86,N,OK
+2025-12-04,S006,Birmingham Care & Education Centre,Midlands,WaterGrid,Utilities,INV-2025-00443,20,80.19,1603.75,60,Procurement Portal,320.75,1603.75,N,OK
+2025-11-03,S013,Reading Care & Education Centre,South,NourishCo,Food & Catering,INV-2025-00444,62,61.89,3837.23,60,Procurement Portal,767.446,3837.23,N,OK
+2025-01-19,S005,Sheffield Care & Education Centre,North,NurseLink,Agency Labour,INV-2025-00445,47,146.4,6880.67,60,Legacy Spend File,1376.134,6880.67,N,OK
+2025-05-08,S004,Newcastle Care & Education Centre,North,FreshServe,Food & Catering,INV-2025-00446,46,93.94,4321.46,30,Legacy Spend File,864.292,4321.46,Y,OK
+2025-11-27,S016,Cardiff Care & Education Centre,Wales,ClinEquip,Medical Supplies,INV-2025-00447,52,146.81,7633.98,45,Procurement Portal,1526.796,7633.98,N,OK
+2025-05-13,S010,Coventry Care & Education Centre,Midlands,MediSure,Medical Supplies,INV-2025-00448,29,71.56,2075.28,60,Legacy Spend File,415.056,2075.28,Y,OK
+2025-07-11,S008,Leicester Care & Education Centre,Midlands,WaterGrid,Utilities,INV-2025-00449,51,188.45,9610.96,45,Legacy Spend File,1922.192,9610.96,N,OK
+2025-01-13,S007,Nottingham Care & Education Centre,Midlands,SafeGuard FM,Facilities,INV-2025-00450,62,100.52,6232.44,30,Procurement Portal,1246.488,6232.44,N,OK
+2025-03-14,S017,Swansea Care & Education Centre,Wales,FreshServe,Food & Catering,INV-2025-00451,45,62.8,2825.88,45,Procurement Portal,565.176,2825.88,Y,OK
+2025-09-05,S009,Derby Care & Education Centre,Midlands,PowerDirect,Utilities,INV-2025-00452,45,422.75,19023.91,45,ERP,3804.782,19023.91,N,OK
+2025-02-04,S008,Leicester Care & Education Centre,Midlands,LearnWell,Office & Training,INV-2025-00453,39,43.61,1700.88,30,Legacy Spend File,340.17600000000004,1700.88,N,OK
+2025-11-28,S020,Bangor Care & Education Centre,Wales,CareMed,Medical Supplies,INV-2025-00454,14,158.34,2216.7,60,ERP,443.34,2216.7,N,OK
+2025-03-31,S006,Birmingham Care & Education Centre,Midlands,PowerDirect,Utilities,INV-2025-00455,71,186.76,13259.89,30,Procurement Portal,2651.978,13259.89,N,OK
+2025-04-29,S020,Bangor Care & Education Centre,Wales,CareTemps,Agency Labour,INV-2025-00456,52,193.97,10086.43,60,ERP,2017.286,10086.43,N,OK
+2025-01-15,S017,Swansea Care & Education Centre,Wales,CareTemps,Agency Labour,INV-2025-00457,79,282.85,22345.13,30,Procurement Portal,4469.026000000001,22345.13,N,OK
+2025-01-03,S007,Nottingham Care & Education Centre,Midlands,CareTemps,Agency Labour,INV-2025-00458,28,169.76,4753.34,30,Procurement Portal,950.668,4753.34,N,OK
+2025-02-22,S015,Brighton Care & Education Centre,South,KitchenPro,Food & Catering,INV-2025-00459,69,47.94,3307.63,30,Procurement Portal,661.5260000000001,3307.63,N,OK
+2025-02-28,S019,Wrexham Care & Education Centre,Wales,WaterGrid,Utilities,INV-2025-00460,34,129.36,4398.37,60,Procurement Portal,879.674,4398.37,N,OK
+2025-07-18,S019,Wrexham Care & Education Centre,Wales,AutoCare,Vehicle & Fuel,INV-2025-00461,79,279.91,22113.06,45,Legacy Spend File,4422.612,22113.06,N,OK
+2025-08-23,S017,Swansea Care & Education Centre,Wales,RoadReady,Vehicle & Fuel,INV-2025-00462,80,96.86,7748.84,30,Legacy Spend File,1549.768,7748.84,N,OK
+2025-10-30,S020,Bangor Care & Education Centre,Wales,NetServe,IT & Telecoms,INV-2025-00463,11,149.72,1646.94,60,ERP,329.38800000000003,1646.94,N,OK
+2025-06-06,S003,Leeds Care & Education Centre,North,FreshServe,Food & Catering,INV-2025-00464,15,73.12,1096.77,30,Procurement Portal,219.354,1096.77,Y,OK
+2025-07-18,S011,London Care & Education Centre,South,BuildCare,Facilities,INV-2025-00465,54,169.22,9137.67,60,ERP,1827.534,9137.67,N,OK
+2025-04-06,S017,Swansea Care & Education Centre,Wales,CareTemps,Agency Labour,INV-2025-00466,63,265.67,16737.11,60,Legacy Spend File,3347.4220000000005,16737.11,N,OK
+2025-03-27,S011,London Care & Education Centre,South,BuildCare,Facilities,INV-2025-00467,63,252.33,15896.96,45,ERP,3179.392,15896.96,N,OK
+2025-11-14,S018,Newport Care & Education Centre,Wales,RoadReady,Vehicle & Fuel,INV-2025-00468,7,144.1,1008.7,45,ERP,201.74,1008.7,N,OK
+2025-07-16,S017,Swansea Care & Education Centre,Wales,CleanWorks,Facilities,INV-2025-00469,72,134.45,9680.29,60,Legacy Spend File,1936.058,9680.29,Y,OK
+2025-09-09,S010,Coventry Care & Education Centre,Midlands,NurseLink,Agency Labour,INV-2025-00470,54,218.56,11802.5,60,Procurement Portal,2360.5,11802.5,N,OK
+2025-10-17,S003,Leeds Care & Education Centre,North,CleanWorks,Facilities,INV-2025-00471,4,154.73,618.92,30,Procurement Portal,123.784,618.92,Y,OK
+2025-10-03,S003,Leeds Care & Education Centre,North,CloudLink,IT & Telecoms,INV-2025-00472,37,62.03,2295.0,30,Procurement Portal,459.0,2295.0,Y,OK
+2025-09-19,S016,Cardiff Care & Education Centre,Wales,PrintCo,Office & Training,INV-2025-00473,15,32.59,488.91,60,ERP,97.782,488.91,N,OK
+2025-01-22,S007,Nottingham Care & Education Centre,Midlands,AutoCare,Vehicle & Fuel,INV-2025-00474,57,201.47,11483.99,60,ERP,2296.798,11483.99,N,OK
+2025-12-01,S006,Birmingham Care & Education Centre,Midlands,KitchenPro,Food & Catering,INV-2025-00475,32,160.63,5140.24,45,ERP,1028.048,5140.24,N,OK
+2025-02-14,S001,Preston Care & Education Centre,North,TeleCare IT,IT & Telecoms,INV-2025-00476,57,191.84,10934.84,30,ERP,2186.9680000000003,10934.84,N,OK
+2025-11-09,S011,London Care & Education Centre,South,AutoCare,Vehicle & Fuel,INV-2025-00477,55,130.45,7174.7,30,Legacy Spend File,1434.94,7174.7,N,OK
+2025-01-31,S007,Nottingham Care & Education Centre,Midlands,UK Energy Partners,Utilities,INV-2025-00478,73,296.68,21657.52,45,Legacy Spend File,4331.504,21657.52,N,OK
+2025-12-27,S008,Leicester Care & Education Centre,Midlands,SafeGuard FM,Facilities,INV-2025-00479,38,978.81,37194.92,45,Legacy Spend File,7438.984,37194.92,N,OK
+2025-07-30,S018,Newport Care & Education Centre,Wales,FreshServe,Food & Catering,INV-2025-00480,8,120.32,962.56,45,Legacy Spend File,192.512,962.56,Y,OK
+2025-03-16,S009,Derby Care & Education Centre,Midlands,CleanWorks,Facilities,INV-2025-00481,42,167.77,7046.4,30,Legacy Spend File,1409.28,7046.4,Y,OK
+2025-10-23,S014,Southampton Care & Education Centre,South,OfficePlus,Office & Training,INV-2025-00482,35,44.34,1551.98,60,Procurement Portal,310.396,1551.98,N,OK
+2025-11-21,S016,Cardiff Care & Education Centre,Wales,OfficePlus,Office & Training,INV-2025-00483,12,31.0,371.98,45,Legacy Spend File,74.396,371.98,N,OK
+2025-07-08,S014,Southampton Care & Education Centre,South,NetServe,IT & Telecoms,INV-2025-00484,59,246.05,14516.92,45,Procurement Portal,2903.384,14516.92,N,OK
+2025-02-17,S003,Leeds Care & Education Centre,North,ClinEquip,Medical Supplies,INV-2025-00485,59,79.16,4670.57,60,Legacy Spend File,934.114,4670.57,N,OK
+2025-10-01,S017,Swansea Care & Education Centre,Wales,FleetFuel,Vehicle & Fuel,INV-2025-00486,51,43.45,2216.01,30,Procurement Portal,443.20200000000006,2216.01,Y,OK
+2025-06-15,S009,Derby Care & Education Centre,Midlands,LearnWell,Office & Training,INV-2025-00487,37,52.56,1944.56,45,Legacy Spend File,388.912,1944.56,N,OK
+2025-09-06,S008,Leicester Care & Education Centre,Midlands,BuildCare,Facilities,INV-2025-00488,44,99.3,4369.02,60,ERP,873.8040000000001,4369.02,N,OK
+2025-08-24,S007,Nottingham Care & Education Centre,Midlands,KitchenPro,Food & Catering,INV-2025-00489,3,164.4,493.21,30,ERP,98.642,493.21,N,OK
+2025-08-08,S013,Reading Care & Education Centre,South,OfficePlus,Office & Training,INV-2025-00490,26,121.8,3166.83,60,ERP,633.366,3166.83,N,OK
+2025-05-21,S001,Preston Care & Education Centre,North,CloudLink,IT & Telecoms,INV-2025-00491,12,219.04,2628.45,60,Procurement Portal,525.6899999999999,2628.45,Y,OK
+2025-12-07,S012,Bristol Care & Education Centre,South,NourishCo,Food & Catering,INV-2025-00492,22,146.7,3227.29,30,Procurement Portal,645.4580000000001,3227.29,N,OK
+2025-12-25,S006,Birmingham Care & Education Centre,Midlands,NetServe,IT & Telecoms,INV-2025-00493,30,229.56,6886.91,45,Legacy Spend File,1377.382,6886.91,N,OK
+2025-04-20,S001,Preston Care & Education Centre,North,FreshServe,Food & Catering,INV-2025-00494,62,40.47,2509.44,30,ERP,501.888,2509.44,Y,OK
+2025-12-15,S006,Birmingham Care & Education Centre,Midlands,PowerDirect,Utilities,INV-2025-00495,57,577.77,32933.0,30,ERP,6586.6,32933.0,N,OK
+2025-08-05,S003,Leeds Care & Education Centre,North,FleetFuel,Vehicle & Fuel,INV-2025-00496,17,127.78,2172.19,45,ERP,434.4380000000001,2172.19,Y,OK
+2025-02-22,S001,Preston Care & Education Centre,North,HealthStaffing,Agency Labour,INV-2025-00497,14,169.58,2374.05,45,Procurement Portal,474.81000000000006,2374.05,N,OK
+2025-03-10,S019,Wrexham Care & Education Centre,Wales,SafeGuard FM,Facilities,INV-2025-00498,19,162.11,3080.08,30,Legacy Spend File,616.0160000000001,3080.08,N,OK
+2025-11-29,S010,Coventry Care & Education Centre,Midlands,ClinEquip,Medical Supplies,INV-2025-00499,22,74.14,1630.99,45,Procurement Portal,326.19800000000004,1630.99,N,OK
+2025-03-19,S009,Derby Care & Education Centre,Midlands,PowerDirect,Utilities,INV-2025-00500,53,116.85,6193.24,60,Legacy Spend File,1238.648,6193.24,N,OK
+2025-02-21,S019,Wrexham Care & Education Centre,Wales,UK Energy Partners,Utilities,INV-2025-00501,18,416.07,7489.3,30,Legacy Spend File,1497.86,7489.3,N,OK
+2025-08-08,S010,Coventry Care & Education Centre,Midlands,CareTemps,Agency Labour,INV-2025-00502,41,857.45,35155.41,30,ERP,7031.082000000001,35155.41,N,OK
+2025-10-11,S009,Derby Care & Education Centre,Midlands,FreshServe,Food & Catering,INV-2025-00503,77,30.12,2319.21,60,Legacy Spend File,463.842,2319.21,Y,OK
+2025-01-14,S014,Southampton Care & Education Centre,South,NetServe,IT & Telecoms,INV-2025-00504,39,299.84,11693.9,30,Legacy Spend File,2338.78,11693.9,N,OK
+2025-07-20,S007,Nottingham Care & Education Centre,Midlands,PowerDirect,Utilities,INV-2025-00505,38,174.79,6642.17,60,ERP,1328.4340000000002,6642.17,N,OK
+2025-02-27,S003,Leeds Care & Education Centre,North,LearnWell,Office & Training,INV-2025-00506,31,57.37,1778.55,45,Legacy Spend File,355.71000000000004,1778.55,N,OK
+2025-01-07,S014,Southampton Care & Education Centre,South,KitchenPro,Food & Catering,INV-2025-00507,47,46.93,2205.52,45,ERP,441.104,2205.52,N,OK
+2025-10-07,S006,Birmingham Care & Education Centre,Midlands,CareTemps,Agency Labour,INV-2025-00508,23,186.53,4290.17,45,ERP,858.0340000000001,4290.17,N,OK
+2025-05-15,S013,Reading Care & Education Centre,South,FreshServe,Food & Catering,INV-2025-00509,28,66.76,1869.22,30,ERP,373.8440000000001,1869.22,Y,OK
+2025-12-31,S005,Sheffield Care & Education Centre,North,NetServe,IT & Telecoms,INV-2025-00510,65,139.3,9054.27,45,Procurement Portal,1810.8540000000005,9054.27,N,OK
+2025-11-24,S004,Newcastle Care & Education Centre,North,HealthStaffing,Agency Labour,INV-2025-00511,69,348.12,24019.96,60,Legacy Spend File,4803.992,24019.96,N,OK
+2025-06-08,S003,Leeds Care & Education Centre,North,CloudLink,medical supplies,INV-2025-00512,11,214.0,2354.05,60,ERP,470.81000000000006,2354.05,Y,OK
+2025-10-28,S012,Bristol Care & Education Centre,South,RoadReady,Vehicle & Fuel,INV-2025-00513,9,83.3,749.71,45,Legacy Spend File,149.942,749.71,N,OK
+2025-05-06,S001,Preston Care & Education Centre,North,UK Energy Partners,Utilities,INV-2025-00514,12,151.76,1821.12,45,ERP,364.224,1821.12,N,OK
+2025-12-08,S002,Manchester Care & Education Centre,North,CareMed,Medical Supplies,INV-2025-00515,23,87.38,2009.74,30,ERP,401.948,2009.74,N,OK
+2025-01-06,S015,Brighton Care & Education Centre,South,BuildCare,Facilities,INV-2025-00516,21,272.71,5726.98,45,Procurement Portal,1145.396,5726.98,N,OK
+2025-07-10,S001,Preston Care & Education Centre,North,CloudLink,IT & Telecoms,INV-2025-00517,17,289.78,4926.31,60,Procurement Portal,985.2620000000002,4926.31,Y,OK
+2025-06-21,S014,Southampton Care & Education Centre,South,FreshServe,Food & Catering,INV-2025-00518,55,37.97,2088.22,45,Legacy Spend File,417.644,2088.22,Y,OK
+2025-10-23,S001,Preston Care & Education Centre,North,NetServe,IT & Telecoms,INV-2025-00519,10,232.35,2323.54,45,Procurement Portal,464.708,2323.54,N,OK
+2025-09-13,S009,Derby Care & Education Centre,Midlands,FleetFuel,Vehicle & Fuel,INV-2025-00520,73,143.62,10483.93,30,Procurement Portal,2096.786,10483.93,Y,OK
+2025-10-21,S015,Brighton Care & Education Centre,South,CloudLink,IT & Telecoms,INV-2025-00521,15,87.83,1317.52,30,Legacy Spend File,263.504,1317.52,Y,OK
+2025-01-07,S001,Preston Care & Education Centre,North,MediSure,Medical Supplies,INV-2025-00522,32,161.8,5177.49,30,Procurement Portal,1035.498,5177.49,Y,OK
+2025-04-02,S005,Sheffield Care & Education Centre,North,HealthStaffing,Agency Labour,INV-2025-00523,5,208.38,1041.88,60,Legacy Spend File,208.37600000000003,1041.88,N,OK
+2025-06-14,S016,Cardiff Care & Education Centre,Wales,HealthStaffing,Agency Labour,INV-2025-00524,32,410.6,13139.1,45,Legacy Spend File,2627.82,13139.1,N,OK
+2025-10-20,S011,London Care & Education Centre,South,CloudLink,IT & Telecoms,INV-2025-00525,48,144.58,6939.85,30,Legacy Spend File,1387.9700000000005,6939.85,Y,OK
+2025-04-25,S017,Swansea Care & Education Centre,Wales,MediSure,Medical Supplies,INV-2025-00526,67,44.47,2979.47,30,Procurement Portal,595.894,2979.47,Y,OK
+2025-06-09,S005,Sheffield Care & Education Centre,North,LearnWell,Office & Training,INV-2025-00527,42,30.64,1286.92,30,Legacy Spend File,257.384,1286.92,N,OK
+2025-04-13,S002,Manchester Care & Education Centre,North,CareMed,Medical Supplies,INV-2025-00528,38,123.22,4682.21,60,Procurement Portal,936.442,4682.21,N,OK
+2025-07-08,S011,London Care & Education Centre,South,WaterGrid,Utilities,INV-2025-00529,76,288.39,21917.52,45,ERP,4383.504,21917.52,N,OK
+2025-01-04,S005,Sheffield Care & Education Centre,North,UK Energy Partners,Utilities,INV-2025-00530,53,152.03,8057.66,30,ERP,1611.5320000000002,8057.66,N,OK
+2025-12-22,S013,Reading Care & Education Centre,South,AutoCare,Vehicle & Fuel,INV-2025-00531,2,134.98,269.95,45,ERP,53.99,269.95,N,OK
+2025-06-07,S019,Wrexham Care & Education Centre,Wales,NurseLink,Agency Labour,INV-2025-00532,14,120.29,1684.13,30,Legacy Spend File,336.826,1684.13,N,OK
+2025-01-31,S007,Nottingham Care & Education Centre,Midlands,CareTemps,Agency Labour,INV-2025-00533,19,289.29,5496.56,60,Procurement Portal,1099.312,5496.56,N,OK
+2025-09-24,S012,Bristol Care & Education Centre,South,MediSure,Medical Supplies,INV-2025-00534,53,61.65,3267.32,60,Procurement Portal,653.464,3267.32,Y,OK
+2025-02-18,S010,Coventry Care & Education Centre,Midlands,KitchenPro,Food & Catering,INV-2025-00535,65,45.42,2952.08,30,Legacy Spend File,590.416,2952.08,N,OK
+2025-10-18,S016,Cardiff Care & Education Centre,Wales,KitchenPro,Food & Catering,INV-2025-00536,8,66.72,533.73,45,Legacy Spend File,106.746,533.73,N,OK
+2025-05-14,S011,London Care & Education Centre,South,WaterGrid,Utilities,INV-2025-00537,41,155.75,6385.63,45,Legacy Spend File,1277.1260000000002,6385.63,N,OK
+2025-08-20,S016,Cardiff Care & Education Centre,Wales,RoadReady,Vehicle & Fuel,INV-2025-00538,35,76.89,2691.14,30,ERP,538.228,2691.14,N,OK
+2025-02-25,S013,Reading Care & Education Centre,South,BuildCare,Facilities,INV-2025-00539,20,313.07,6261.34,30,ERP,1252.268,6261.34,N,OK
+2025-07-28,S005,Sheffield Care & Education Centre,North,LearnWell,Office & Training,INV-2025-00540,16,54.61,873.74,60,Procurement Portal,174.74800000000002,873.74,N,OK
+2025-08-26,S009,Derby Care & Education Centre,Midlands,LearnWell,Office & Training,INV-2025-00541,34,118.76,4037.9,30,ERP,807.58,4037.9,N,OK
+2025-12-23,S002,Manchester Care & Education Centre,North,NetServe,IT & Telecoms,INV-2025-00542,78,118.19,9218.78,30,ERP,1843.7560000000003,9218.78,N,OK
+2025-12-31,S003,Leeds Care & Education Centre,North,CleanWorks,Facilities,INV-2025-00543,32,240.89,7708.55,45,Procurement Portal,1541.71,7708.55,Y,OK
+2025-06-03,S004,Newcastle Care & Education Centre,North,ClinEquip,Medical Supplies,INV-2025-00544,34,265.17,9015.63,30,ERP,1803.126,9015.63,N,OK
+2025-10-09,S009,Derby Care & Education Centre,Midlands,PrintCo,Office & Training,INV-2025-00545,32,19.26,616.35,30,Procurement Portal,123.27,616.35,N,OK
+2025-01-07,S004,Newcastle Care & Education Centre,North,CleanWorks,Facilities,INV-2025-00546,8,116.12,929.0,30,ERP,185.8,929.0,Y,OK
+2025-12-18,S006,Birmingham Care & Education Centre,Midlands,CareTemps,Agency Labour,INV-2025-00547,11,412.06,4532.67,60,Legacy Spend File,906.534,4532.67,N,OK
+2025-02-03,S018,Newport Care & Education Centre,Wales,FreshServe,Food & Catering,INV-2025-00548,26,58.13,1511.43,60,Procurement Portal,302.286,1511.43,Y,OK
+2025-03-04,S016,Cardiff Care & Education Centre,Wales,nourishco,Food & Catering,INV-2025-00549,6,79.72,478.32,45,ERP,95.664,478.32,N,OK
+2025-07-22,S008,Leicester Care & Education Centre,Midlands,NurseLink,Agency Labour,INV-2025-00550,64,215.2,13773.11,30,Procurement Portal,2754.6220000000003,13773.11,N,OK
+2025-07-01,S019,Wrexham Care & Education Centre,Wales,HealthStaffing,Agency Labour,INV-2025-00551,28,314.63,8809.72,30,Procurement Portal,1761.944,8809.72,N,OK
+2025-01-18,S007,Nottingham Care & Education Centre,Midlands,OfficePlus,Office & Training,INV-2025-00552,79,68.85,5438.8,60,Legacy Spend File,1087.76,5438.8,N,OK
+2025-07-30,S005,Sheffield Care & Education Centre,North,TeleCare IT,IT & Telecoms,INV-2025-00553,71,418.18,29690.65,45,ERP,5938.130000000001,29690.65,N,OK
+2025-03-12,S011,London Care & Education Centre,South,TeleCare IT,IT & Telecoms,INV-2025-00554,54,253.04,13664.32,30,Legacy Spend File,2732.864,13664.32,N,OK
+2025-10-06,S001,Preston Care & Education Centre,North,PowerDirect,Utilities,INV-2025-00555,3,301.01,903.03,45,Legacy Spend File,180.606,903.03,N,OK
+2025-09-06,S008,Leicester Care & Education Centre,Midlands,PrintCo,Office & Training,INV-2025-00556,45,59.8,2690.87,60,Legacy Spend File,538.174,2690.87,N,OK
+2025-04-03,S006,Birmingham Care & Education Centre,Midlands,CareTemps,Agency Labour,INV-2025-00557,4,229.43,917.72,45,Legacy Spend File,183.544,917.72,N,OK
+2025-01-30,S010,Coventry Care & Education Centre,Midlands,CareMed,Medical Supplies,INV-2025-00558,61,94.59,5770.18,60,Procurement Portal,1154.036,5770.18,N,OK
+2025-02-21,S008,Leicester Care & Education Centre,Midlands,UK Energy Partners,Utilities,INV-2025-00559,32,310.57,9938.24,60,ERP,1987.648,9938.24,N,OK
+2025-10-22,S017,Swansea Care & Education Centre,Wales,MediSure,Medical Supplies,INV-2025-00560,50,95.2,4759.86,45,ERP,951.972,4759.86,Y,OK
+2025-06-12,S016,Cardiff Care & Education Centre,Wales,PowerDirect,Utilities,INV-2025-00561,46,293.19,13486.96,60,ERP,2697.392,13486.96,N,OK
+2025-10-16,S017,Swansea Care & Education Centre,Wales,AutoCare,Vehicle & Fuel,INV-2025-00562,19,297.48,5652.12,60,ERP,1130.424,5652.12,N,OK
+2025-09-09,S018,Newport Care & Education Centre,Wales,CloudLink,IT & Telecoms,INV-2025-00563,5,355.22,1776.12,30,ERP,355.224,1776.12,Y,OK
+2025-09-27,S009,Derby Care & Education Centre,Midlands,UK Energy Partners,Utilities,INV-2025-00564,62,208.96,12955.59,30,Procurement Portal,2591.1180000000004,12955.59,N,OK
+2025-06-24,S018,Newport Care & Education Centre,Wales,UK Energy Partners,Utilities,INV-2025-00565,23,484.02,11132.49,45,ERP,2226.498,11132.49,N,OK
+2025-12-27,S007,Nottingham Care & Education Centre,Midlands,BuildCare,Facilities,INV-2025-00566,19,143.81,2732.45,30,Legacy Spend File,546.49,2732.45,N,OK
+2025-12-27,S004,Newcastle Care & Education Centre,North,NourishCo,Food & Catering,INV-2025-00567,51,21.19,1080.57,60,ERP,216.114,1080.57,N,OK
+2025-03-11,S014,Southampton Care & Education Centre,South,TeleCare IT,IT & Telecoms,INV-2025-00568,21,126.37,2653.68,60,Procurement Portal,530.736,2653.68,N,OK
+2025-06-12,S008,Leicester Care & Education Centre,Midlands,PrintCo,Office & Training,INV-2025-00569,23,26.8,616.49,60,Legacy Spend File,123.298,616.49,N,OK
+2025-12-07,S019,Wrexham Care & Education Centre,Wales,FleetFuel,Vehicle & Fuel,INV-2025-00570,76,78.3,5950.78,30,Procurement Portal,1190.156,5950.78,Y,OK
+2025-04-01,S005,Sheffield Care & Education Centre,North,CloudLink,IT & Telecoms,INV-2025-00571,1,222.24,222.24,60,Legacy Spend File,44.44800000000001,222.24,Y,OK
+2025-11-05,S020,Bangor Care & Education Centre,Wales,MediSure,Medical Supplies,INV-2025-00572,41,301.73,12370.93,60,ERP,2474.186,12370.93,Y,OK
+2025-03-14,S010,Coventry Care & Education Centre,Midlands,NourishCo,Food & Catering,INV-2025-00573,43,77.8,3345.59,60,ERP,669.118,3345.59,N,OK
+2025-03-27,S001,Preston Care & Education Centre,North,RoadReady,Vehicle & Fuel,INV-2025-00574,12,84.21,1010.58,60,Legacy Spend File,202.116,1010.58,N,OK
+2025-01-06,S002,Manchester Care & Education Centre,North,RoadReady,Vehicle & Fuel,INV-2025-00575,34,149.91,5097.02,30,ERP,1019.404,5097.02,N,OK
+2025-05-12,S006,Birmingham Care & Education Centre,Midlands,NourishCo,Food & Catering,INV-2025-00576,14,19.26,269.7,60,ERP,53.94,269.7,N,OK
+2025-08-03,S018,Newport Care & Education Centre,Wales,CareTemps,Agency Labour,INV-2025-00577,22,341.51,7513.17,45,Procurement Portal,1502.634,7513.17,N,OK
+2025-07-12,S006,Birmingham Care & Education Centre,Midlands,AutoCare,Vehicle & Fuel,INV-2025-00578,13,145.16,1887.11,45,Legacy Spend File,377.422,1887.11,N,OK
+2025-08-20,S009,Derby Care & Education Centre,Midlands,UK Energy Partners,Utilities,INV-2025-00579,10,110.86,1108.57,30,Procurement Portal,221.714,1108.57,N,OK
+2025-02-23,S001,Preston Care & Education Centre,North,RoadReady,Vehicle & Fuel,INV-2025-00580,10,178.21,1782.06,45,ERP,356.41200000000003,1782.06,N,OK
+2025-02-08,S019,Wrexham Care & Education Centre,Wales,BuildCare,Facilities,INV-2025-00581,71,216.83,15395.18,30,Procurement Portal,3079.036,15395.18,N,OK
+2025-01-16,S015,Brighton Care & Education Centre,South,PrintCo,Office & Training,INV-2025-00582,56,59.68,3342.36,60,ERP,668.4720000000001,3342.36,N,OK
+2025-01-28,S014,Southampton Care & Education Centre,South,HealthStaffing,Agency Labour,INV-2025-00583,13,424.88,5523.47,45,ERP,1104.6940000000002,5523.47,N,OK
+2025-10-11,S018,Newport Care & Education Centre,Wales,NurseLink,Agency Labour,INV-2025-00584,70,1045.93,73215.23,45,Legacy Spend File,14643.046,73215.23,N,OK
+2025-02-19,S011,London Care & Education Centre,South,CloudLink,IT & Telecoms,INV-2025-00585,7,243.14,1702.01,45,Legacy Spend File,340.40200000000004,1702.01,Y,OK
+2025-01-28,S004,Newcastle Care & Education Centre,North,OfficePlus,Office & Training,INV-2025-00586,47,85.97,4040.63,30,Procurement Portal,808.1260000000001,4040.63,N,OK
+2025-11-17,S019,Wrexham Care & Education Centre,Wales,NetServe,IT & Telecoms,INV-2025-00587,77,170.88,13157.99,45,ERP,2631.598,13157.99,N,OK
+2025-03-29,S013,Reading Care & Education Centre,South,MediSure,Medical Supplies,INV-2025-00588,38,75.19,2857.39,30,Procurement Portal,571.478,2857.39,Y,OK
+2025-08-30,S010,Coventry Care & Education Centre,Midlands,TeleCare IT,IT & Telecoms,INV-2025-00589,63,347.34,21882.6,60,Procurement Portal,4376.52,21882.6,N,OK
+2025-07-09,S009,Derby Care & Education Centre,Midlands,HealthStaffing,Agency Labour,INV-2025-00590,49,187.34,9179.76,45,ERP,1835.952,9179.76,N,OK
+2025-08-14,S012,Bristol Care & Education Centre,South,CareMed,Medical Supplies,INV-2025-00591,60,124.82,7489.05,45,ERP,1497.8100000000002,7489.05,N,OK
+2025-12-23,S005,Sheffield Care & Education Centre,North,MediSure,Medical Supplies,INV-2025-00592,13,92.28,1199.58,30,Legacy Spend File,239.916,1199.58,Y,OK
+2025-04-27,S006,Birmingham Care & Education Centre,Midlands,NurseLink,Agency Labour,INV-2025-00593,71,390.42,27719.77,30,Procurement Portal,5543.954000000001,27719.77,N,OK
+2025-12-18,S005,Sheffield Care & Education Centre,North,NurseLink,Agency Labour,INV-2025-00594,61,360.43,21986.21,60,ERP,4397.242,21986.21,N,OK
+2025-07-22,S018,Newport Care & Education Centre,Wales,CloudLink,IT & Telecoms,INV-2025-00595,5,389.27,1946.35,60,Legacy Spend File,389.27,1946.35,Y,OK
+2025-08-18,S009,Derby Care & Education Centre,Midlands,CleanWorks,Facilities,INV-2025-00596,23,135.97,3127.35,30,ERP,625.47,3127.35,Y,OK
+2025-08-05,S020,Bangor Care & Education Centre,Wales,CleanWorks,Facilities,INV-2025-00597,11,155.17,1706.88,60,Procurement Portal,341.37600000000003,1706.88,Y,OK
+2025-05-13,S008,Leicester Care & Education Centre,Midlands,BuildCare,Facilities,INV-2025-00598,41,105.07,4307.91,60,ERP,861.582,4307.91,N,OK
+2025-07-23,S008,Leicester Care & Education Centre,Midlands,NurseLink,Agency Labour,INV-2025-00599,71,234.96,16682.26,45,Procurement Portal,3336.452,16682.26,N,OK
+2025-12-25,S011,London Care & Education Centre,South,OfficePlus,Office & Training,INV-2025-00600,80,92.3,7383.7,60,Legacy Spend File,1476.74,7383.7,N,OK
